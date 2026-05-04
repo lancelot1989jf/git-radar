@@ -1,0 +1,47 @@
+risk_keywords:
+  high:
+    - guaranteed profit
+    - get rich quick
+    - casino
+    - binary options
+    - pump
+    - ponzi
+  medium:
+    - martingale
+    - leverage
+    - futures
+    - crypto bot
+    - grid trading
+    - arbitrage bot
+    - signal
+  low:
+    - backtesting
+    - paper trading
+    - sandbox
+
+risk_flags:
+  trading_bot:
+    include_any:
+      - trading bot
+      - bot
+      - auto trading
+      - automated trading
+  crypto_related:
+    include_any:
+      - crypto
+      - binance
+      - bybit
+      - okx
+      - ccxt
+  likely_research_tool:
+    include_any:
+      - backtest
+      - research
+      - factor
+      - portfolio
+  leverage_or_grid_related:
+    include_any:
+      - leverage
+      - futures
+      - grid trading
+      - martingale

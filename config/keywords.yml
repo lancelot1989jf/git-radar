@@ -1,0 +1,140 @@
+active_months: 18
+request_sleep_seconds: 2.2
+per_page: 50
+sorts:
+  - stars
+  - updated
+language_query_keywords:
+  - quant
+  - backtesting
+
+topics:
+  - algorithmic-trading
+  - algo-trading
+  - quantitative-finance
+  - quant
+  - trading-bot
+  - backtesting
+  - portfolio-optimization
+  - market-making
+  - arbitrage
+  - crypto-trading
+  - orderbook
+  - risk-management
+  - fintech
+  - finance
+  - stock-market
+  - options-trading
+  - forex
+  - high-frequency-trading
+  - machine-learning-trading
+  - reinforcement-learning-trading
+
+keywords:
+  - quant
+  - quantitative finance
+  - algorithmic trading
+  - algo trading
+  - trading bot
+  - backtest
+  - backtesting
+  - portfolio optimization
+  - factor model
+  - alpha model
+  - risk model
+  - market making
+  - order book
+  - orderbook
+  - arbitrage
+  - crypto trading
+  - ai trading
+  - reinforcement learning trading
+  - options trading
+  - volatility
+  - fintech
+
+languages:
+  - Python
+  - TypeScript
+  - JavaScript
+  - Rust
+  - Go
+  - C++
+  - Java
+  - Julia
+  - R
+
+exclude_keywords:
+  - gambling
+  - casino
+  - get rich quick
+  - guaranteed profit
+  - paid signal
+  - paid signals
+  - signal group
+  - martingale only
+  - binary options
+  - free money
+  - pump
+  - ponzi
+  - referral
+
+categories:
+  backtesting:
+    keywords:
+      - backtest
+      - backtesting
+      - strategy test
+  trading_bot:
+    keywords:
+      - trading bot
+      - bot
+      - auto trading
+      - automated trading
+  quant_research:
+    keywords:
+      - quant
+      - factor
+      - alpha
+      - research
+      - portfolio
+  trading_infra:
+    keywords:
+      - order book
+      - orderbook
+      - market data
+      - execution
+      - exchange
+      - broker
+  risk_management:
+    keywords:
+      - risk
+      - var
+      - volatility
+      - exposure
+      - hedge
+  crypto_trading:
+    keywords:
+      - crypto
+      - binance
+      - bybit
+      - okx
+      - ccxt
+  ai_trading:
+    keywords:
+      - ai trading
+      - machine learning
+      - reinforcement learning
+      - llm
+  data_engineering:
+    keywords:
+      - market data
+      - data pipeline
+      - etl
+      - feature store
+  fintech_product:
+    keywords:
+      - fintech
+      - payment
+      - banking
+      - personal finance

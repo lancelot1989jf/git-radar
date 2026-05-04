@@ -1,0 +1,26 @@
+version: v0.1
+output_count: 80
+group_size: 25
+recent_project_days: 365
+baseline_tolerance_days: 3
+
+weights:
+  total_stars_log: 0.25
+  forks_log: 0.10
+  star_delta_1d: 0.25
+  star_delta_7d: 0.25
+  activity: 0.10
+  freshness: 0.05
+
+caps:
+  star_delta_1d: 100
+  star_delta_7d: 500
+  activity_days: 90
+  freshness_days: 365
+
+penalties:
+  archived: 100
+  fork: 30
+  no_push_over_365_days: 20
+  suspicious_keyword: 15
+  no_description: 5
