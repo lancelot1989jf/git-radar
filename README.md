@@ -33,10 +33,23 @@ export PIP_CACHE_DIR=/Volumes/贾帆工作/devtools/pip-cache
 .venv/bin/python -m pytest -q
 ```
 
+无 `GITHUB_TOKEN` 时，可用小样本 smoke 配置检查端到端链路：
+
+```bash
+.venv/bin/python scripts/collect_github.py --config config/keywords.smoke.yml --out data/snapshots/$(date +%F).json
+```
+
 有 `GITHUB_TOKEN` 时会使用认证请求，额度更稳定：
 
 ```bash
 export GITHUB_TOKEN=ghp_xxx
+```
+
+也可以使用 GitHub CLI 登录。本地未设置 `GITHUB_TOKEN` 时，采集脚本会自动尝试读取 `gh auth token`，但不会打印 token：
+
+```bash
+gh auth login --hostname github.com --git-protocol https --web
+gh auth status
 ```
 
 ## GitHub Actions

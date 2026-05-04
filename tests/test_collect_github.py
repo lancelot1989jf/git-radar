@@ -74,6 +74,15 @@ def test_parse_rate_limit_wait_seconds() -> None:
     assert collect_github.parse_rate_limit_wait_seconds({}) is None
 
 
+def test_resolve_github_token_prefers_environment(monkeypatch) -> None:
+    monkeypatch.setenv("GITHUB_TOKEN", "env-token")
+
+    token, source = collect_github.resolve_github_token()
+
+    assert token == "env-token"
+    assert source == "GITHUB_TOKEN"
+
+
 class FakeResponse:
     status_code = 200
     headers: dict[str, str] = {}

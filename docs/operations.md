@@ -34,6 +34,13 @@ export GITHUB_TOKEN=ghp_xxx
   --out data/snapshots/$(date +%F).json
 ```
 
+也可以使用 GitHub CLI 登录。本地未设置 `GITHUB_TOKEN` 时，采集脚本会自动尝试读取 `gh auth token`，不打印 token：
+
+```bash
+gh auth login --hostname github.com --git-protocol https --web
+gh auth status
+```
+
 排名：
 
 ```bash

@@ -10,6 +10,8 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import shutil
+import subprocess
 import sys
 import time
 from copy import deepcopy
@@ -161,6 +163,31 @@ def github_headers(token: str | None) -> dict[str, str]:
     if token:
         headers["Authorization"] = f"Bearer {token}"
     return headers
+
+
+def resolve_github_token() -> tuple[str | None, str]:
+    env_token = os.environ.get("GITHUB_TOKEN")
+    if env_token:
+        return env_token, "GITHUB_TOKEN"
+
+    if shutil.which("gh") is None:
+        return None, "none"
+
+    try:
+        result = subprocess.run(
+            ["gh", "auth", "token"],
+            check=False,
+            capture_output=True,
+            text=True,
+            timeout=10,
+        )
+    except (OSError, subprocess.SubprocessError):
+        return None, "none"
+
+    token = result.stdout.strip()
+    if result.returncode == 0 and token:
+        return token, "gh"
+    return None, "none"
 
 
 def search_repositories(
@@ -382,12 +409,14 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
     config = load_yaml(args.config)
-    token = os.environ.get("GITHUB_TOKEN")
+    token, token_source = resolve_github_token()
     if not token:
         print(
-            "warning: GITHUB_TOKEN is not set; unauthenticated GitHub API limits are lower",
+            "warning: no GITHUB_TOKEN and no gh auth token; unauthenticated GitHub API limits are lower",
             file=sys.stderr,
         )
+    elif token_source == "gh":
+        print("info: using GitHub CLI authentication token", file=sys.stderr)
 
     snapshot = collect_snapshot(config=config, token=token)
     write_json(args.out, snapshot)
