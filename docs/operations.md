@@ -60,14 +60,26 @@ PYTHONPYCACHEPREFIX=.pycache_runtime .venv/bin/python -m compileall scripts test
 
 需要设置 secret：
 
-- `OPENAI_API_KEY`
+- `DEEPSEEK_API_KEY`：每日云端定时报告生成使用。
+- `OPENAI_API_KEY`：可选，仅手动运行旧 Codex workflow 时使用。
 
 `GITHUB_TOKEN` 由 GitHub Actions 自动提供，并映射给采集脚本使用。
 
 工作流：
 
-- 手动触发：`workflow_dispatch`
-- 定时触发：`30 23 * * *`，即 JST 08:30
+- `.github/workflows/daily-radar.yml`：DeepSeek V4Pro 路径，支持 `workflow_dispatch`，并每天 `30 0 * * *` 触发，即北京时间 08:30；默认报告日期为前一天。
+- `.github/workflows/manual-codex-radar.yml`：旧 OpenAI/Codex 路径，仅支持手动 `workflow_dispatch`。
+
+DeepSeek 报告生成脚本也可以本地调用：
+
+```bash
+export DEEPSEEK_API_KEY=sk-xxx
+.venv/bin/python scripts/generate_report_deepseek.py \
+  --input data/latest_candidates.json \
+  --prompt .github/deepseek/prompts/daily_finance_radar.md \
+  --out reports/daily/$(date +%F)-finance-github-radar.md \
+  --metadata-out data/report_runs/$(date +%F)-deepseek.json
+```
 
 ## Common Issues
 
@@ -84,10 +96,10 @@ PYTHONPYCACHEPREFIX=.pycache_runtime .venv/bin/python -m compileall scripts test
 
 原因是 snapshot 历史不足。系统会继续输出候选项目，对应 delta 为 `null`，报告需要说明数据不足。
 
-### Codex report has invented data
+### Report has invented data
 
-报告 prompt 已要求只基于 `data/latest_candidates.json`。如果仍出现编造，需要收紧 prompt，并在人工 review 时以 JSON 为准。
+报告 prompt 已要求只基于 `data/latest_candidates.json`。如果仍出现编造，需要收紧 DeepSeek/Codex prompt，并在人工 review 时以 JSON 为准。
 
-### Current directory is not a git repository
+### DeepSeek API key missing
 
-本地目录当前没有 `.git`。GitHub Actions 的 commit/push 逻辑只有在该目录进入真实 GitHub 仓库后才能端到端验证。
+如果云端日志显示 `missing required environment variable: DEEPSEEK_API_KEY`，需要在 GitHub 仓库 Settings -> Secrets and variables -> Actions 中添加 repository secret `DEEPSEEK_API_KEY`。

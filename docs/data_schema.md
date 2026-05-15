@@ -1,6 +1,6 @@
 # Data Schema
 
-本项目所有中间结果都落盘为 JSON，便于复现、审计和调试。Python 负责生成这些结构化数据；Codex 只读取 `data/latest_candidates.json` 生成报告。
+本项目所有中间结果都落盘为 JSON，便于复现、审计和调试。Python 负责生成这些结构化数据；DeepSeek 云端路径和保留的 Codex 手动路径都只读取 `data/latest_candidates.json` 生成报告。
 
 ## Snapshot
 
@@ -68,3 +68,18 @@
 - 不 clone、不安装、不运行候选仓库代码。
 - 不读取、不生成、不提交真实交易 API key。
 - 不将 GitHub star 或涨星解释为收益信号。
+
+## Report Run Metadata
+
+路径：`data/report_runs/YYYY-MM-DD-deepseek.json`
+
+字段：
+
+- `provider`：固定为 `deepseek`。
+- `model`：生成报告使用的模型，默认为 `deepseek-v4-pro`。
+- `base_url`、`endpoint`：调用的 DeepSeek API 地址，不包含密钥。
+- `input_path`、`prompt_path`、`output_path`、`metadata_path`：本次运行的文件路径。
+- `input_sha256`、`prompt_sha256`、`output_sha256`：输入 JSON、prompt、报告正文的 SHA-256。
+- `generated_at`：UTC ISO 时间。
+- `temperature`、`max_tokens`、`thinking`：生成参数。
+- `response_id`、`finish_reason`、`usage`：DeepSeek 返回的可审计元数据。
