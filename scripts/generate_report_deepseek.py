@@ -18,7 +18,7 @@ DEFAULT_INPUT = Path("data/latest_candidates.json")
 DEFAULT_PROMPT = Path(".github/deepseek/prompts/daily_finance_radar.md")
 DEFAULT_TIMEOUT_SECONDS = 180
 DEFAULT_TEMPERATURE = 0.2
-DEFAULT_MAX_TOKENS = 6000
+DEFAULT_MAX_TOKENS = 16000
 FIXED_RISK_REMINDER = (
     "风险提醒：本报告只用于开源项目观察和工程灵感收集，不构成投资建议。不要直接运行未知 trading bot，"
     "不要输入真实交易所 API Key，不要将 GitHub star 或短期涨星视为收益信号。自动交易、杠杆、马丁、网格和"
@@ -99,6 +99,27 @@ def build_payload(
     if thinking:
         payload["thinking"] = {"type": thinking}
     return payload
+
+
+def build_repair_messages(
+    *,
+    prompt_text: str,
+    candidates_json_text: str,
+    invalid_markdown: str,
+    validation_errors: list[str],
+) -> list[dict[str, str]]:
+    repair_instruction = (
+        "上一次生成的报告未通过结构校验。请基于同一份 data/latest_candidates.json 重新输出一份完整中文 Markdown 报告。"
+        "必须包含 1 到 8 的全部章节标题，必须包含固定风险提示，不能包含模板变量。"
+        "如果篇幅接近上限，请压缩项目分析和表格，但不要省略任何章节。"
+        "只输出修复后的完整 Markdown 报告。\n\n"
+        "校验错误：\n"
+        f"{json.dumps(validation_errors, ensure_ascii=False, indent=2)}"
+    )
+    return build_messages(prompt_text, candidates_json_text) + [
+        {"role": "assistant", "content": invalid_markdown},
+        {"role": "user", "content": repair_instruction},
+    ]
 
 
 def call_deepseek(
@@ -192,6 +213,7 @@ def generate_report(
         max_tokens=max_tokens,
         thinking=thinking,
     )
+    attempts: list[dict[str, Any]] = []
     response_json = call_deepseek(
         api_key=api_key,
         base_url=base_url,
@@ -201,8 +223,44 @@ def generate_report(
     )
     markdown, finish_reason = extract_report_markdown(response_json)
     validation_errors = validate_report_markdown(markdown)
+    attempts.append(
+        {
+            "finish_reason": finish_reason,
+            "output_sha256": sha256_text(markdown),
+            "validation_errors": validation_errors,
+        }
+    )
     if validation_errors:
-        raise DeepSeekReportError("; ".join(validation_errors))
+        repair_payload = build_payload(
+            model=model,
+            messages=build_repair_messages(
+                prompt_text=prompt_text,
+                candidates_json_text=candidates_json_text,
+                invalid_markdown=markdown,
+                validation_errors=validation_errors,
+            ),
+            temperature=temperature,
+            max_tokens=max_tokens,
+            thinking=thinking,
+        )
+        response_json = call_deepseek(
+            api_key=api_key,
+            base_url=base_url,
+            payload=repair_payload,
+            timeout_seconds=timeout_seconds,
+            session=session,
+        )
+        markdown, finish_reason = extract_report_markdown(response_json)
+        validation_errors = validate_report_markdown(markdown)
+        attempts.append(
+            {
+                "finish_reason": finish_reason,
+                "output_sha256": sha256_text(markdown),
+                "validation_errors": validation_errors,
+            }
+        )
+        if validation_errors:
+            raise DeepSeekReportError("; ".join(validation_errors))
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(markdown, encoding="utf-8")
@@ -225,6 +283,8 @@ def generate_report(
         "response_id": response_json.get("id"),
         "temperature": temperature,
         "thinking": thinking,
+        "attempt_count": len(attempts),
+        "attempts": attempts,
         "usage": response_json.get("usage"),
     }
     write_json(metadata_path, metadata)
