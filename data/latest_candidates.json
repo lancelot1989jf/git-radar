@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-15T02:04:36+00:00",
-  "current_snapshot": "2026-08-14.json",
-  "baseline_1d": "2026-08-13.json",
-  "baseline_7d": "2026-08-07.json",
-  "count": 49,
+  "generated_at": "2026-08-16T02:13:44+00:00",
+  "current_snapshot": "2026-08-15.json",
+  "baseline_1d": "2026-08-14.json",
+  "baseline_7d": "2026-08-08.json",
+  "count": 48,
   "ranking_config": {
     "version": "v0.1",
     "output_count": 80,
@@ -17,10 +17,10 @@
       "name": "public-apis",
       "html_url": "https://github.com/public-apis/public-apis",
       "description": "A collective list of free APIs",
-      "stars": 458609,
-      "forks": 50696,
-      "watchers": 458609,
-      "open_issues": 1646,
+      "stars": 460228,
+      "forks": 50855,
+      "watchers": 460228,
+      "open_issues": 1655,
       "language": "Python",
       "topics": [
         "api",
@@ -41,16 +41,16 @@
       "archived": false,
       "fork": false,
       "created_at": "2016-03-20T23:49:42Z",
-      "updated_at": "2026-08-15T01:57:34Z",
+      "updated_at": "2026-08-16T02:08:21Z",
       "pushed_at": "2026-08-13T21:07:34Z",
       "matched_queries": [
-        "\"algorithmic trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "\"crypto trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "\"portfolio optimization\" in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "\"quantitative finance\" in:name,description,readme archived:false fork:false pushed:>2025-02-15"
+        "\"algorithmic trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "\"crypto trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "\"portfolio optimization\" in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "\"quantitative finance\" in:name,description,readme archived:false fork:false pushed:>2025-02-16"
       ],
-      "star_delta_1d": 2607,
-      "star_delta_7d": 3635,
+      "star_delta_1d": 1619,
+      "star_delta_7d": 5115,
       "star_delta_30d": null,
       "category_guess": [
         "crypto_trading",
@@ -61,10 +61,10 @@
         "likely_research_tool"
       ],
       "risk_level": "中",
-      "hot_score": 197.58,
+      "hot_score": 197.48,
       "ranking_reasons": [
-        "24 小时涨星 +2607",
-        "7 日涨星 +3635",
+        "24 小时涨星 +1619",
+        "7 日涨星 +5115",
         "总 star 数较高",
         "近 30 天有 push",
         "匹配分类：crypto_trading、quant_research",
@@ -73,235 +73,16 @@
       "rank": 1
     },
     {
-      "id": 1131513930,
-      "full_name": "ZhuLinsen/daily_stock_analysis",
-      "owner": "ZhuLinsen",
-      "name": "daily_stock_analysis",
-      "html_url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "stars": 62883,
-      "forks": 52898,
-      "watchers": 62883,
-      "open_issues": 53,
-      "language": "Python",
-      "topics": [
-        "a-stock",
-        "ai-agent",
-        "aigc",
-        "llm",
-        "quant",
-        "quantitative-finance",
-        "quantitative-trading"
-      ],
-      "license": "MIT",
-      "archived": false,
-      "fork": false,
-      "created_at": "2026-01-10T06:43:20Z",
-      "updated_at": "2026-08-15T01:54:08Z",
-      "pushed_at": "2026-08-14T14:40:59Z",
-      "matched_queries": [
-        "topic:quant archived:false fork:false pushed:>2025-02-15",
-        "topic:quantitative-finance archived:false fork:false pushed:>2025-02-15"
-      ],
-      "star_delta_1d": 122,
-      "star_delta_7d": 2389,
-      "star_delta_30d": null,
-      "category_guess": [
-        "ai_trading",
-        "data_engineering",
-        "quant_research",
-        "trading_infra"
-      ],
-      "risk_flags": [],
-      "risk_level": "低",
-      "hot_score": 189.87,
-      "ranking_reasons": [
-        "24 小时涨星 +122",
-        "7 日涨星 +2389",
-        "总 star 数较高",
-        "近 30 天有 push",
-        "匹配分类：ai_trading、data_engineering、quant_research"
-      ],
-      "rank": 2
-    },
-    {
-      "id": 1106996539,
-      "full_name": "nextlevelbuilder/ui-ux-pro-max-skill",
-      "owner": "nextlevelbuilder",
-      "name": "ui-ux-pro-max-skill",
-      "html_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-      "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
-      "stars": 116767,
-      "forks": 12547,
-      "watchers": 116767,
-      "open_issues": 80,
-      "language": "Python",
-      "topics": [
-        "ai-skills",
-        "antigravity",
-        "claude",
-        "claude-code",
-        "codex",
-        "command-line",
-        "copilot",
-        "cursor-ai",
-        "html5",
-        "kiro",
-        "landing-page",
-        "mobile-ui",
-        "qoder",
-        "react",
-        "tailwindcss",
-        "trae",
-        "ui-design",
-        "uikit",
-        "windsurf-ai"
-      ],
-      "license": "MIT",
-      "archived": false,
-      "fork": false,
-      "created_at": "2025-11-30T11:36:31Z",
-      "updated_at": "2026-08-15T02:01:20Z",
-      "pushed_at": "2026-08-13T17:10:11Z",
-      "matched_queries": [
-        "fintech in:name,description,readme archived:false fork:false pushed:>2025-02-15"
-      ],
-      "star_delta_1d": 281,
-      "star_delta_7d": 2257,
-      "star_delta_30d": null,
-      "category_guess": [
-        "fintech_product"
-      ],
-      "risk_flags": [],
-      "risk_level": "低",
-      "hot_score": 182.7,
-      "ranking_reasons": [
-        "24 小时涨星 +281",
-        "7 日涨星 +2257",
-        "总 star 数较高",
-        "近 30 天有 push",
-        "匹配分类：fintech_product"
-      ],
-      "rank": 3
-    },
-    {
-      "id": 132750724,
-      "full_name": "codecrafters-io/build-your-own-x",
-      "owner": "codecrafters-io",
-      "name": "build-your-own-x",
-      "html_url": "https://github.com/codecrafters-io/build-your-own-x",
-      "description": "Master programming by recreating your favorite technologies from scratch.",
-      "stars": 539763,
-      "forks": 50976,
-      "watchers": 539763,
-      "open_issues": 627,
-      "language": "Markdown",
-      "topics": [
-        "awesome-list",
-        "free",
-        "programming",
-        "tutorial-code",
-        "tutorial-exercises",
-        "tutorials"
-      ],
-      "license": null,
-      "archived": false,
-      "fork": false,
-      "created_at": "2018-05-09T12:03:18Z",
-      "updated_at": "2026-08-15T01:57:58Z",
-      "pushed_at": "2026-07-14T19:25:58Z",
-      "matched_queries": [
-        "\"trading bot\" in:name,description,readme archived:false fork:false pushed:>2025-02-15"
-      ],
-      "star_delta_1d": 271,
-      "star_delta_7d": 2201,
-      "star_delta_30d": null,
-      "category_guess": [
-        "trading_bot"
-      ],
-      "risk_flags": [
-        "trading_bot"
-      ],
-      "risk_level": "中",
-      "hot_score": 179.65,
-      "ranking_reasons": [
-        "24 小时涨星 +271",
-        "7 日涨星 +2201",
-        "总 star 数较高",
-        "近 90 天有 push",
-        "匹配分类：trading_bot",
-        "包含风险或用途标记：trading_bot"
-      ],
-      "rank": 4
-    },
-    {
-      "id": 909213664,
-      "full_name": "TauricResearch/TradingAgents",
-      "owner": "TauricResearch",
-      "name": "TradingAgents",
-      "html_url": "https://github.com/TauricResearch/TradingAgents",
-      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "stars": 98184,
-      "forks": 18905,
-      "watchers": 98184,
-      "open_issues": 361,
-      "language": "Python",
-      "topics": [
-        "agent",
-        "finance",
-        "llm",
-        "multiagent",
-        "trading"
-      ],
-      "license": "Apache-2.0",
-      "archived": false,
-      "fork": false,
-      "created_at": "2024-12-28T03:31:08Z",
-      "updated_at": "2026-08-15T01:57:29Z",
-      "pushed_at": "2026-07-18T15:55:05Z",
-      "matched_queries": [
-        "backtest in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtesting in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtesting in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-15",
-        "topic:finance archived:false fork:false pushed:>2025-02-15",
-        "volatility in:name,description,readme archived:false fork:false pushed:>2025-02-15"
-      ],
-      "star_delta_1d": 151,
-      "star_delta_7d": 2099,
-      "star_delta_30d": null,
-      "category_guess": [
-        "ai_trading",
-        "backtesting",
-        "quant_research",
-        "risk_management"
-      ],
-      "risk_flags": [
-        "likely_research_tool",
-        "risk_keyword_low"
-      ],
-      "risk_level": "低",
-      "hot_score": 170.42,
-      "ranking_reasons": [
-        "24 小时涨星 +151",
-        "7 日涨星 +2099",
-        "总 star 数较高",
-        "近 30 天有 push",
-        "匹配分类：ai_trading、backtesting、quant_research",
-        "包含风险或用途标记：likely_research_tool、risk_keyword_low"
-      ],
-      "rank": 5
-    },
-    {
       "id": 1223170290,
       "full_name": "nexu-io/open-design",
       "owner": "nexu-io",
       "name": "open-design",
       "html_url": "https://github.com/nexu-io/open-design",
-      "description": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
-      "stars": 86364,
-      "forks": 10073,
-      "watchers": 86364,
-      "open_issues": 790,
+      "description": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
+      "stars": 86966,
+      "forks": 10117,
+      "watchers": 86966,
+      "open_issues": 800,
       "language": "TypeScript",
       "topics": [
         "agent-skills",
@@ -329,28 +110,88 @@
       "archived": false,
       "fork": false,
       "created_at": "2026-04-28T04:25:20Z",
-      "updated_at": "2026-08-15T02:01:06Z",
-      "pushed_at": "2026-08-15T01:31:46Z",
+      "updated_at": "2026-08-16T02:10:04Z",
+      "pushed_at": "2026-08-16T01:32:19Z",
       "matched_queries": [
-        "fintech in:name,description,readme archived:false fork:false pushed:>2025-02-15"
+        "fintech in:name,description,readme archived:false fork:false pushed:>2025-02-16"
       ],
-      "star_delta_1d": 744,
-      "star_delta_7d": 1953,
+      "star_delta_1d": 602,
+      "star_delta_7d": 2388,
       "star_delta_30d": null,
       "category_guess": [
         "fintech_product"
       ],
       "risk_flags": [],
       "risk_level": "低",
-      "hot_score": 168.84,
+      "hot_score": 190.6,
       "ranking_reasons": [
-        "24 小时涨星 +744",
-        "7 日涨星 +1953",
+        "24 小时涨星 +602",
+        "7 日涨星 +2388",
         "总 star 数较高",
         "近 30 天有 push",
         "匹配分类：fintech_product"
       ],
-      "rank": 6
+      "rank": 2
+    },
+    {
+      "id": 1106996539,
+      "full_name": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "owner": "nextlevelbuilder",
+      "name": "ui-ux-pro-max-skill",
+      "html_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
+      "stars": 117069,
+      "forks": 12589,
+      "watchers": 117069,
+      "open_issues": 80,
+      "language": "Python",
+      "topics": [
+        "ai-skills",
+        "antigravity",
+        "claude",
+        "claude-code",
+        "codex",
+        "command-line",
+        "copilot",
+        "cursor-ai",
+        "html5",
+        "kiro",
+        "landing-page",
+        "mobile-ui",
+        "qoder",
+        "react",
+        "tailwindcss",
+        "trae",
+        "ui-design",
+        "uikit",
+        "windsurf-ai"
+      ],
+      "license": "MIT",
+      "archived": false,
+      "fork": false,
+      "created_at": "2025-11-30T11:36:31Z",
+      "updated_at": "2026-08-16T02:10:52Z",
+      "pushed_at": "2026-08-13T17:10:11Z",
+      "matched_queries": [
+        "fintech in:name,description,readme archived:false fork:false pushed:>2025-02-16"
+      ],
+      "star_delta_1d": 302,
+      "star_delta_7d": 2302,
+      "star_delta_30d": null,
+      "category_guess": [
+        "fintech_product"
+      ],
+      "risk_flags": [],
+      "risk_level": "低",
+      "hot_score": 184.84,
+      "ranking_reasons": [
+        "24 小时涨星 +302",
+        "7 日涨星 +2302",
+        "总 star 数较高",
+        "近 30 天有 push",
+        "匹配分类：fintech_product"
+      ],
+      "rank": 3
     },
     {
       "id": 725205304,
@@ -359,10 +200,10 @@
       "name": "unsloth",
       "html_url": "https://github.com/unslothai/unsloth",
       "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
-      "stars": 71524,
-      "forks": 6453,
-      "watchers": 71524,
-      "open_issues": 1176,
+      "stars": 72069,
+      "forks": 6495,
+      "watchers": 72069,
+      "open_issues": 1226,
       "language": "Python",
       "topics": [
         "agent",
@@ -390,14 +231,14 @@
       "archived": false,
       "fork": false,
       "created_at": "2023-11-29T16:50:09Z",
-      "updated_at": "2026-08-15T01:56:08Z",
-      "pushed_at": "2026-08-15T00:23:55Z",
+      "updated_at": "2026-08-16T02:08:28Z",
+      "pushed_at": "2026-08-16T02:04:22Z",
       "matched_queries": [
-        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "quant in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-15"
+        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "quant in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-16"
       ],
-      "star_delta_1d": 410,
-      "star_delta_7d": 1829,
+      "star_delta_1d": 545,
+      "star_delta_7d": 2334,
       "star_delta_30d": null,
       "category_guess": [
         "ai_trading",
@@ -405,15 +246,379 @@
       ],
       "risk_flags": [],
       "risk_level": "低",
-      "hot_score": 158.33,
+      "hot_score": 183.61,
       "ranking_reasons": [
-        "24 小时涨星 +410",
-        "7 日涨星 +1829",
+        "24 小时涨星 +545",
+        "7 日涨星 +2334",
         "总 star 数较高",
         "近 30 天有 push",
         "匹配分类：ai_trading、quant_research"
       ],
+      "rank": 4
+    },
+    {
+      "id": 132750724,
+      "full_name": "codecrafters-io/build-your-own-x",
+      "owner": "codecrafters-io",
+      "name": "build-your-own-x",
+      "html_url": "https://github.com/codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "stars": 540023,
+      "forks": 50997,
+      "watchers": 540023,
+      "open_issues": 629,
+      "language": "Markdown",
+      "topics": [
+        "awesome-list",
+        "free",
+        "programming",
+        "tutorial-code",
+        "tutorial-exercises",
+        "tutorials"
+      ],
+      "license": null,
+      "archived": false,
+      "fork": false,
+      "created_at": "2018-05-09T12:03:18Z",
+      "updated_at": "2026-08-16T02:03:31Z",
+      "pushed_at": "2026-07-14T19:25:58Z",
+      "matched_queries": [
+        "\"trading bot\" in:name,description,readme archived:false fork:false pushed:>2025-02-16"
+      ],
+      "star_delta_1d": 260,
+      "star_delta_7d": 2161,
+      "star_delta_30d": null,
+      "category_guess": [
+        "trading_bot"
+      ],
+      "risk_flags": [
+        "trading_bot"
+      ],
+      "risk_level": "中",
+      "hot_score": 177.54,
+      "ranking_reasons": [
+        "24 小时涨星 +260",
+        "7 日涨星 +2161",
+        "总 star 数较高",
+        "近 90 天有 push",
+        "匹配分类：trading_bot",
+        "包含风险或用途标记：trading_bot"
+      ],
+      "rank": 5
+    },
+    {
+      "id": 1131513930,
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "owner": "ZhuLinsen",
+      "name": "daily_stock_analysis",
+      "html_url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "stars": 62971,
+      "forks": 52961,
+      "watchers": 62971,
+      "open_issues": 49,
+      "language": "Python",
+      "topics": [
+        "a-stock",
+        "ai-agent",
+        "aigc",
+        "llm",
+        "quant",
+        "quantitative-finance",
+        "quantitative-trading"
+      ],
+      "license": "MIT",
+      "archived": false,
+      "fork": false,
+      "created_at": "2026-01-10T06:43:20Z",
+      "updated_at": "2026-08-16T02:06:20Z",
+      "pushed_at": "2026-08-15T13:59:25Z",
+      "matched_queries": [
+        "topic:quant archived:false fork:false pushed:>2025-02-16",
+        "topic:quantitative-finance archived:false fork:false pushed:>2025-02-16"
+      ],
+      "star_delta_1d": 88,
+      "star_delta_7d": 2183,
+      "star_delta_30d": null,
+      "category_guess": [
+        "ai_trading",
+        "data_engineering",
+        "quant_research",
+        "trading_infra"
+      ],
+      "risk_flags": [],
+      "risk_level": "低",
+      "hot_score": 176.55,
+      "ranking_reasons": [
+        "24 小时涨星 +88",
+        "7 日涨星 +2183",
+        "总 star 数较高",
+        "近 30 天有 push",
+        "匹配分类：ai_trading、data_engineering、quant_research"
+      ],
+      "rank": 6
+    },
+    {
+      "id": 909213664,
+      "full_name": "TauricResearch/TradingAgents",
+      "owner": "TauricResearch",
+      "name": "TradingAgents",
+      "html_url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "stars": 98346,
+      "forks": 18956,
+      "watchers": 98346,
+      "open_issues": 364,
+      "language": "Python",
+      "topics": [
+        "agent",
+        "finance",
+        "llm",
+        "multiagent",
+        "trading"
+      ],
+      "license": "Apache-2.0",
+      "archived": false,
+      "fork": false,
+      "created_at": "2024-12-28T03:31:08Z",
+      "updated_at": "2026-08-16T01:45:45Z",
+      "pushed_at": "2026-07-18T15:55:05Z",
+      "matched_queries": [
+        "backtest in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtesting in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtesting in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-16",
+        "topic:finance archived:false fork:false pushed:>2025-02-16",
+        "volatility in:name,description,readme archived:false fork:false pushed:>2025-02-16"
+      ],
+      "star_delta_1d": 162,
+      "star_delta_7d": 1823,
+      "star_delta_30d": null,
+      "category_guess": [
+        "ai_trading",
+        "backtesting",
+        "quant_research",
+        "risk_management"
+      ],
+      "risk_flags": [
+        "likely_research_tool",
+        "risk_keyword_low"
+      ],
+      "risk_level": "低",
+      "hot_score": 156.51,
+      "ranking_reasons": [
+        "24 小时涨星 +162",
+        "7 日涨星 +1823",
+        "总 star 数较高",
+        "近 30 天有 push",
+        "匹配分类：ai_trading、backtesting、quant_research",
+        "包含风险或用途标记：likely_research_tool、risk_keyword_low"
+      ],
       "rank": 7
+    },
+    {
+      "id": 1286080397,
+      "full_name": "JustVugg/colibri",
+      "owner": "JustVugg",
+      "name": "colibri",
+      "html_url": "https://github.com/JustVugg/colibri",
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "stars": 25060,
+      "forks": 2719,
+      "watchers": 25060,
+      "open_issues": 135,
+      "language": "C",
+      "topics": [],
+      "license": "Apache-2.0",
+      "archived": false,
+      "fork": false,
+      "created_at": "2026-07-01T12:27:49Z",
+      "updated_at": "2026-08-16T02:07:22Z",
+      "pushed_at": "2026-08-15T07:35:07Z",
+      "matched_queries": [
+        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-16"
+      ],
+      "star_delta_1d": 313,
+      "star_delta_7d": 1693,
+      "star_delta_30d": null,
+      "category_guess": [
+        "quant_research"
+      ],
+      "risk_flags": [],
+      "risk_level": "低",
+      "hot_score": 152.8,
+      "ranking_reasons": [
+        "24 小时涨星 +313",
+        "7 日涨星 +1693",
+        "总 star 数较高",
+        "近 30 天有 push",
+        "匹配分类：quant_research"
+      ],
+      "rank": 8
+    },
+    {
+      "id": 36633370,
+      "full_name": "awesome-selfhosted/awesome-selfhosted",
+      "owner": "awesome-selfhosted",
+      "name": "awesome-selfhosted",
+      "html_url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+      "stars": 312920,
+      "forks": 14688,
+      "watchers": 312920,
+      "open_issues": 0,
+      "language": null,
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "cloud",
+        "free-software",
+        "hosting",
+        "privacy",
+        "self-hosted",
+        "selfhosted"
+      ],
+      "license": "Other",
+      "archived": false,
+      "fork": false,
+      "created_at": "2015-06-01T02:33:17Z",
+      "updated_at": "2026-08-16T02:07:03Z",
+      "pushed_at": "2026-08-12T18:50:03Z",
+      "matched_queries": [
+        "\"trading bot\" in:name,description,readme archived:false fork:false pushed:>2025-02-16"
+      ],
+      "star_delta_1d": 218,
+      "star_delta_7d": 1480,
+      "star_delta_30d": null,
+      "category_guess": [
+        "trading_bot"
+      ],
+      "risk_flags": [
+        "trading_bot"
+      ],
+      "risk_level": "中",
+      "hot_score": 144.44,
+      "ranking_reasons": [
+        "24 小时涨星 +218",
+        "7 日涨星 +1480",
+        "总 star 数较高",
+        "近 30 天有 push",
+        "匹配分类：trading_bot",
+        "包含风险或用途标记：trading_bot"
+      ],
+      "rank": 9
+    },
+    {
+      "id": 1197515131,
+      "full_name": "VoltAgent/awesome-design-md",
+      "owner": "VoltAgent",
+      "name": "awesome-design-md",
+      "html_url": "https://github.com/VoltAgent/awesome-design-md",
+      "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
+      "stars": 108603,
+      "forks": 12393,
+      "watchers": 108603,
+      "open_issues": 315,
+      "language": null,
+      "topics": [
+        "awesome-list",
+        "design-md",
+        "design-system",
+        "design-tokens",
+        "figma",
+        "google-stitch",
+        "landing-page",
+        "vibe-coding",
+        "vibe-design",
+        "vibecoding"
+      ],
+      "license": "MIT",
+      "archived": false,
+      "fork": false,
+      "created_at": "2026-03-31T16:37:01Z",
+      "updated_at": "2026-08-16T01:41:28Z",
+      "pushed_at": "2026-07-31T12:32:42Z",
+      "matched_queries": [
+        "\"crypto trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "fintech in:name,description,readme archived:false fork:false pushed:>2025-02-16"
+      ],
+      "star_delta_1d": 180,
+      "star_delta_7d": 1275,
+      "star_delta_30d": null,
+      "category_guess": [
+        "crypto_trading",
+        "fintech_product"
+      ],
+      "risk_flags": [
+        "crypto_related"
+      ],
+      "risk_level": "中",
+      "hot_score": 133.5,
+      "ranking_reasons": [
+        "24 小时涨星 +180",
+        "7 日涨星 +1275",
+        "总 star 数较高",
+        "近 30 天有 push",
+        "匹配分类：crypto_trading、fintech_product",
+        "包含风险或用途标记：crypto_related"
+      ],
+      "rank": 10
+    },
+    {
+      "id": 21289110,
+      "full_name": "vinta/awesome-python",
+      "owner": "vinta",
+      "name": "awesome-python",
+      "html_url": "https://github.com/vinta/awesome-python",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "stars": 314173,
+      "forks": 28518,
+      "watchers": 314173,
+      "open_issues": 27,
+      "language": "Python",
+      "topics": [
+        "awesome",
+        "collections",
+        "python",
+        "python-frameworks",
+        "python-libraries",
+        "python-tools"
+      ],
+      "license": "Other",
+      "archived": false,
+      "fork": false,
+      "created_at": "2014-06-27T21:00:06Z",
+      "updated_at": "2026-08-16T02:07:54Z",
+      "pushed_at": "2026-08-05T06:11:04Z",
+      "matched_queries": [
+        "\"algorithmic trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtest in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtesting in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtesting in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-16",
+        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "quant in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-16"
+      ],
+      "star_delta_1d": 182,
+      "star_delta_7d": 1241,
+      "star_delta_30d": null,
+      "category_guess": [
+        "backtesting",
+        "quant_research"
+      ],
+      "risk_flags": [
+        "likely_research_tool",
+        "risk_keyword_low"
+      ],
+      "risk_level": "低",
+      "hot_score": 132.24,
+      "ranking_reasons": [
+        "24 小时涨星 +182",
+        "7 日涨星 +1241",
+        "总 star 数较高",
+        "近 30 天有 push",
+        "匹配分类：backtesting、quant_research",
+        "包含风险或用途标记：likely_research_tool、risk_keyword_low"
+      ],
+      "rank": 11
     },
     {
       "id": 1222527844,
@@ -422,9 +627,9 @@
       "name": "iFixAi",
       "html_url": "https://github.com/ifixai-ai/iFixAi",
       "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
-      "stars": 8581,
+      "stars": 8671,
       "forks": 847,
-      "watchers": 8581,
+      "watchers": 8671,
       "open_issues": 1,
       "language": "Python",
       "topics": [
@@ -453,13 +658,13 @@
       "archived": false,
       "fork": false,
       "created_at": "2026-04-27T13:02:34Z",
-      "updated_at": "2026-08-15T01:41:57Z",
+      "updated_at": "2026-08-16T02:03:14Z",
       "pushed_at": "2026-08-14T13:11:02Z",
       "matched_queries": [
-        "topic:risk-management archived:false fork:false pushed:>2025-02-15"
+        "topic:risk-management archived:false fork:false pushed:>2025-02-16"
       ],
-      "star_delta_1d": 49,
-      "star_delta_7d": 1904,
+      "star_delta_1d": 90,
+      "star_delta_7d": 1286,
       "star_delta_30d": null,
       "category_guess": [
         "ai_trading",
@@ -467,144 +672,43 @@
       ],
       "risk_flags": [],
       "risk_level": "低",
-      "hot_score": 146.41,
+      "hot_score": 125.66,
       "ranking_reasons": [
-        "24 小时涨星 +49",
-        "7 日涨星 +1904",
+        "24 小时涨星 +90",
+        "7 日涨星 +1286",
         "总 star 数较高",
         "近 30 天有 push",
         "匹配分类：ai_trading、risk_management"
       ],
-      "rank": 8
+      "rank": 12
     },
     {
-      "id": 1286080397,
-      "full_name": "JustVugg/colibri",
-      "owner": "JustVugg",
-      "name": "colibri",
-      "html_url": "https://github.com/JustVugg/colibri",
-      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
-      "stars": 24747,
-      "forks": 2701,
-      "watchers": 24747,
-      "open_issues": 122,
-      "language": "C",
-      "topics": [],
-      "license": "Apache-2.0",
-      "archived": false,
-      "fork": false,
-      "created_at": "2026-07-01T12:27:49Z",
-      "updated_at": "2026-08-15T01:09:54Z",
-      "pushed_at": "2026-08-14T16:46:45Z",
-      "matched_queries": [
-        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-15"
-      ],
-      "star_delta_1d": 205,
-      "star_delta_7d": 1547,
-      "star_delta_30d": null,
-      "category_guess": [
-        "quant_research"
-      ],
-      "risk_flags": [],
-      "risk_level": "低",
-      "hot_score": 145.53,
-      "ranking_reasons": [
-        "24 小时涨星 +205",
-        "7 日涨星 +1547",
-        "总 star 数较高",
-        "近 30 天有 push",
-        "匹配分类：quant_research"
-      ],
-      "rank": 9
-    },
-    {
-      "id": 36633370,
-      "full_name": "awesome-selfhosted/awesome-selfhosted",
-      "owner": "awesome-selfhosted",
-      "name": "awesome-selfhosted",
-      "html_url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-      "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
-      "stars": 312702,
-      "forks": 14678,
-      "watchers": 312702,
-      "open_issues": 0,
-      "language": null,
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "cloud",
-        "free-software",
-        "hosting",
-        "privacy",
-        "self-hosted",
-        "selfhosted"
-      ],
-      "license": "Other",
-      "archived": false,
-      "fork": false,
-      "created_at": "2015-06-01T02:33:17Z",
-      "updated_at": "2026-08-15T01:58:43Z",
-      "pushed_at": "2026-08-12T18:50:03Z",
-      "matched_queries": [
-        "\"trading bot\" in:name,description,readme archived:false fork:false pushed:>2025-02-15"
-      ],
-      "star_delta_1d": 211,
-      "star_delta_7d": 1442,
-      "star_delta_30d": null,
-      "category_guess": [
-        "trading_bot"
-      ],
-      "risk_flags": [
-        "trading_bot"
-      ],
-      "risk_level": "中",
-      "hot_score": 142.65,
-      "ranking_reasons": [
-        "24 小时涨星 +211",
-        "7 日涨星 +1442",
-        "总 star 数较高",
-        "近 30 天有 push",
-        "匹配分类：trading_bot",
-        "包含风险或用途标记：trading_bot"
-      ],
-      "rank": 10
-    },
-    {
-      "id": 21289110,
-      "full_name": "vinta/awesome-python",
-      "owner": "vinta",
-      "name": "awesome-python",
-      "html_url": "https://github.com/vinta/awesome-python",
-      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
-      "stars": 313991,
-      "forks": 28515,
-      "watchers": 313991,
-      "open_issues": 27,
+      "id": 1011567289,
+      "full_name": "shiyu-coder/Kronos",
+      "owner": "shiyu-coder",
+      "name": "Kronos",
+      "html_url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "stars": 37304,
+      "forks": 6211,
+      "watchers": 37304,
+      "open_issues": 263,
       "language": "Python",
-      "topics": [
-        "awesome",
-        "collections",
-        "python",
-        "python-frameworks",
-        "python-libraries",
-        "python-tools"
-      ],
-      "license": "Other",
+      "topics": [],
+      "license": "MIT",
       "archived": false,
       "fork": false,
-      "created_at": "2014-06-27T21:00:06Z",
-      "updated_at": "2026-08-15T01:44:32Z",
-      "pushed_at": "2026-08-05T06:11:04Z",
+      "created_at": "2025-07-01T02:54:32Z",
+      "updated_at": "2026-08-16T02:06:17Z",
+      "pushed_at": "2026-04-13T12:38:49Z",
       "matched_queries": [
-        "\"algorithmic trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtest in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtesting in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtesting in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-15",
-        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "quant in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-15"
+        "\"portfolio optimization\" in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtest in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtesting in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtesting in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-16"
       ],
-      "star_delta_1d": 161,
-      "star_delta_7d": 1225,
+      "star_delta_1d": 113,
+      "star_delta_7d": 1111,
       "star_delta_30d": null,
       "category_guess": [
         "backtesting",
@@ -615,72 +719,15 @@
         "risk_keyword_low"
       ],
       "risk_level": "低",
-      "hot_score": 131.55,
+      "hot_score": 111.0,
       "ranking_reasons": [
-        "24 小时涨星 +161",
-        "7 日涨星 +1225",
+        "24 小时涨星 +113",
+        "7 日涨星 +1111",
         "总 star 数较高",
-        "近 30 天有 push",
         "匹配分类：backtesting、quant_research",
         "包含风险或用途标记：likely_research_tool、risk_keyword_low"
       ],
-      "rank": 11
-    },
-    {
-      "id": 1197515131,
-      "full_name": "VoltAgent/awesome-design-md",
-      "owner": "VoltAgent",
-      "name": "awesome-design-md",
-      "html_url": "https://github.com/VoltAgent/awesome-design-md",
-      "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
-      "stars": 108423,
-      "forks": 12377,
-      "watchers": 108423,
-      "open_issues": 315,
-      "language": null,
-      "topics": [
-        "awesome-list",
-        "design-md",
-        "design-system",
-        "design-tokens",
-        "figma",
-        "google-stitch",
-        "landing-page",
-        "vibe-coding",
-        "vibe-design",
-        "vibecoding"
-      ],
-      "license": "MIT",
-      "archived": false,
-      "fork": false,
-      "created_at": "2026-03-31T16:37:01Z",
-      "updated_at": "2026-08-15T01:53:37Z",
-      "pushed_at": "2026-07-31T12:32:42Z",
-      "matched_queries": [
-        "\"crypto trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "fintech in:name,description,readme archived:false fork:false pushed:>2025-02-15"
-      ],
-      "star_delta_1d": 118,
-      "star_delta_7d": 1220,
-      "star_delta_30d": null,
-      "category_guess": [
-        "crypto_trading",
-        "fintech_product"
-      ],
-      "risk_flags": [
-        "crypto_related"
-      ],
-      "risk_level": "中",
-      "hot_score": 130.87,
-      "ranking_reasons": [
-        "24 小时涨星 +118",
-        "7 日涨星 +1220",
-        "总 star 数较高",
-        "近 30 天有 push",
-        "匹配分类：crypto_trading、fintech_product",
-        "包含风险或用途标记：crypto_related"
-      ],
-      "rank": 12
+      "rank": 13
     },
     {
       "id": 1129940957,
@@ -689,10 +736,10 @@
       "name": "headroom",
       "html_url": "https://github.com/headroomlabs-ai/headroom",
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
-      "stars": 66378,
-      "forks": 5087,
-      "watchers": 66378,
-      "open_issues": 479,
+      "stars": 66457,
+      "forks": 5101,
+      "watchers": 66457,
+      "open_issues": 486,
       "language": "Python",
       "topics": [
         "agent",
@@ -720,13 +767,13 @@
       "archived": false,
       "fork": false,
       "created_at": "2026-01-07T19:58:51Z",
-      "updated_at": "2026-08-15T01:37:49Z",
-      "pushed_at": "2026-08-14T21:40:49Z",
+      "updated_at": "2026-08-16T01:57:33Z",
+      "pushed_at": "2026-08-16T00:57:42Z",
       "matched_queries": [
-        "volatility in:name,description,readme archived:false fork:false pushed:>2025-02-15"
+        "volatility in:name,description,readme archived:false fork:false pushed:>2025-02-16"
       ],
-      "star_delta_1d": 128,
-      "star_delta_7d": 966,
+      "star_delta_1d": 79,
+      "star_delta_7d": 911,
       "star_delta_30d": null,
       "category_guess": [
         "ai_trading",
@@ -734,107 +781,15 @@
       ],
       "risk_flags": [],
       "risk_level": "低",
-      "hot_score": 116.8,
+      "hot_score": 108.81,
       "ranking_reasons": [
-        "24 小时涨星 +128",
-        "7 日涨星 +966",
+        "24 小时涨星 +79",
+        "7 日涨星 +911",
         "总 star 数较高",
         "近 30 天有 push",
         "匹配分类：ai_trading、risk_management"
       ],
-      "rank": 13
-    },
-    {
-      "id": 1011567289,
-      "full_name": "shiyu-coder/Kronos",
-      "owner": "shiyu-coder",
-      "name": "Kronos",
-      "html_url": "https://github.com/shiyu-coder/Kronos",
-      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
-      "stars": 37191,
-      "forks": 6185,
-      "watchers": 37191,
-      "open_issues": 262,
-      "language": "Python",
-      "topics": [],
-      "license": "MIT",
-      "archived": false,
-      "fork": false,
-      "created_at": "2025-07-01T02:54:32Z",
-      "updated_at": "2026-08-15T01:55:13Z",
-      "pushed_at": "2026-04-13T12:38:49Z",
-      "matched_queries": [
-        "\"portfolio optimization\" in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtest in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtesting in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtesting in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-15"
-      ],
-      "star_delta_1d": 80,
-      "star_delta_7d": 1049,
-      "star_delta_30d": null,
-      "category_guess": [
-        "backtesting",
-        "quant_research"
-      ],
-      "risk_flags": [
-        "likely_research_tool",
-        "risk_keyword_low"
-      ],
-      "risk_level": "低",
-      "hot_score": 102.89,
-      "ranking_reasons": [
-        "24 小时涨星 +80",
-        "7 日涨星 +1049",
-        "总 star 数较高",
-        "匹配分类：backtesting、quant_research",
-        "包含风险或用途标记：likely_research_tool、risk_keyword_low"
-      ],
       "rank": 14
-    },
-    {
-      "id": 32484381,
-      "full_name": "ripienaar/free-for-dev",
-      "owner": "ripienaar",
-      "name": "free-for-dev",
-      "html_url": "https://github.com/ripienaar/free-for-dev",
-      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
-      "stars": 131813,
-      "forks": 13826,
-      "watchers": 131813,
-      "open_issues": 12,
-      "language": "HTML",
-      "topics": [
-        "awesome-list",
-        "free-for-developers"
-      ],
-      "license": null,
-      "archived": false,
-      "fork": false,
-      "created_at": "2015-03-18T21:06:26Z",
-      "updated_at": "2026-08-15T01:29:54Z",
-      "pushed_at": "2026-08-14T08:38:45Z",
-      "matched_queries": [
-        "fintech in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-15"
-      ],
-      "star_delta_1d": 97,
-      "star_delta_7d": 532,
-      "star_delta_30d": null,
-      "category_guess": [
-        "fintech_product",
-        "quant_research"
-      ],
-      "risk_flags": [],
-      "risk_level": "低",
-      "hot_score": 94.65,
-      "ranking_reasons": [
-        "24 小时涨星 +97",
-        "7 日涨星 +532",
-        "总 star 数较高",
-        "近 30 天有 push",
-        "匹配分类：fintech_product、quant_research"
-      ],
-      "rank": 15
     },
     {
       "id": 21540759,
@@ -843,10 +798,10 @@
       "name": "awesome-go",
       "html_url": "https://github.com/avelino/awesome-go",
       "description": "A curated list of awesome Go frameworks, libraries and software",
-      "stars": 181068,
-      "forks": 13481,
-      "watchers": 181068,
-      "open_issues": 209,
+      "stars": 181159,
+      "forks": 13485,
+      "watchers": 181159,
+      "open_issues": 208,
       "language": "Go",
       "topics": [
         "awesome",
@@ -860,19 +815,19 @@
       "archived": false,
       "fork": false,
       "created_at": "2014-07-06T13:42:15Z",
-      "updated_at": "2026-08-15T01:40:06Z",
-      "pushed_at": "2026-08-14T23:38:22Z",
+      "updated_at": "2026-08-16T01:56:33Z",
+      "pushed_at": "2026-08-15T17:55:36Z",
       "matched_queries": [
-        "\"crypto trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "\"order book\" in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "\"trading bot\" in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtest in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtesting in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtesting in:name,description,readme language:Go archived:false fork:false pushed:>2025-02-15",
-        "orderbook in:name,description,readme archived:false fork:false pushed:>2025-02-15"
+        "\"crypto trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "\"order book\" in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "\"trading bot\" in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtest in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtesting in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtesting in:name,description,readme language:Go archived:false fork:false pushed:>2025-02-16",
+        "orderbook in:name,description,readme archived:false fork:false pushed:>2025-02-16"
       ],
-      "star_delta_1d": 63,
-      "star_delta_7d": 636,
+      "star_delta_1d": 91,
+      "star_delta_7d": 617,
       "star_delta_30d": null,
       "category_guess": [
         "backtesting",
@@ -887,14 +842,59 @@
         "trading_bot"
       ],
       "risk_level": "中",
-      "hot_score": 92.09,
+      "hot_score": 98.11,
       "ranking_reasons": [
-        "24 小时涨星 +63",
-        "7 日涨星 +636",
+        "24 小时涨星 +91",
+        "7 日涨星 +617",
         "总 star 数较高",
         "近 30 天有 push",
         "匹配分类：backtesting、crypto_trading、trading_bot",
         "包含风险或用途标记：crypto_related、likely_research_tool、risk_keyword_low"
+      ],
+      "rank": 15
+    },
+    {
+      "id": 32484381,
+      "full_name": "ripienaar/free-for-dev",
+      "owner": "ripienaar",
+      "name": "free-for-dev",
+      "html_url": "https://github.com/ripienaar/free-for-dev",
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "stars": 131908,
+      "forks": 13838,
+      "watchers": 131908,
+      "open_issues": 12,
+      "language": "HTML",
+      "topics": [
+        "awesome-list",
+        "free-for-developers"
+      ],
+      "license": null,
+      "archived": false,
+      "fork": false,
+      "created_at": "2015-03-18T21:06:26Z",
+      "updated_at": "2026-08-16T01:19:54Z",
+      "pushed_at": "2026-08-15T13:45:19Z",
+      "matched_queries": [
+        "fintech in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-16"
+      ],
+      "star_delta_1d": 95,
+      "star_delta_7d": 572,
+      "star_delta_30d": null,
+      "category_guess": [
+        "fintech_product",
+        "quant_research"
+      ],
+      "risk_flags": [],
+      "risk_level": "低",
+      "hot_score": 96.18,
+      "ranking_reasons": [
+        "24 小时涨星 +95",
+        "7 日涨星 +572",
+        "总 star 数较高",
+        "近 30 天有 push",
+        "匹配分类：fintech_product、quant_research"
       ],
       "rank": 16
     },
@@ -905,10 +905,10 @@
       "name": "Vibe-Trading",
       "html_url": "https://github.com/HKUDS/Vibe-Trading",
       "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-      "stars": 30863,
-      "forks": 5006,
-      "watchers": 30863,
-      "open_issues": 16,
+      "stars": 30930,
+      "forks": 5017,
+      "watchers": 30930,
+      "open_issues": 21,
       "language": "Python",
       "topics": [
         "ai-agent",
@@ -926,27 +926,27 @@
       "archived": false,
       "fork": false,
       "created_at": "2026-04-01T09:52:20Z",
-      "updated_at": "2026-08-15T01:50:25Z",
-      "pushed_at": "2026-08-14T21:02:18Z",
+      "updated_at": "2026-08-16T01:46:15Z",
+      "pushed_at": "2026-08-15T18:41:25Z",
       "matched_queries": [
-        "\"crypto trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "\"order book\" in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "\"portfolio optimization\" in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "\"risk model\" in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtest in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtesting in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtesting in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-15",
-        "orderbook in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "quant in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-15",
-        "topic:algorithmic-trading archived:false fork:false pushed:>2025-02-15",
-        "topic:backtesting archived:false fork:false pushed:>2025-02-15",
-        "topic:fintech archived:false fork:false pushed:>2025-02-15",
-        "topic:quantitative-finance archived:false fork:false pushed:>2025-02-15",
-        "volatility in:name,description,readme archived:false fork:false pushed:>2025-02-15"
+        "\"crypto trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "\"order book\" in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "\"portfolio optimization\" in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "\"risk model\" in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtest in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtesting in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtesting in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-16",
+        "orderbook in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "quant in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-16",
+        "topic:algorithmic-trading archived:false fork:false pushed:>2025-02-16",
+        "topic:backtesting archived:false fork:false pushed:>2025-02-16",
+        "topic:fintech archived:false fork:false pushed:>2025-02-16",
+        "topic:quantitative-finance archived:false fork:false pushed:>2025-02-16",
+        "volatility in:name,description,readme archived:false fork:false pushed:>2025-02-16"
       ],
-      "star_delta_1d": 64,
-      "star_delta_7d": 606,
+      "star_delta_1d": 67,
+      "star_delta_7d": 553,
       "star_delta_30d": null,
       "category_guess": [
         "ai_trading",
@@ -963,10 +963,10 @@
         "risk_keyword_low"
       ],
       "risk_level": "中",
-      "hot_score": 89.26,
+      "hot_score": 87.35,
       "ranking_reasons": [
-        "24 小时涨星 +64",
-        "7 日涨星 +606",
+        "24 小时涨星 +67",
+        "7 日涨星 +553",
         "总 star 数较高",
         "近 30 天有 push",
         "匹配分类：ai_trading、backtesting、crypto_trading",
@@ -975,63 +975,16 @@
       "rank": 17
     },
     {
-      "id": 906251482,
-      "full_name": "ashishpatel26/500-AI-Agents-Projects",
-      "owner": "ashishpatel26",
-      "name": "500-AI-Agents-Projects",
-      "html_url": "https://github.com/ashishpatel26/500-AI-Agents-Projects",
-      "description": "The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more.",
-      "stars": 36493,
-      "forks": 6512,
-      "watchers": 36493,
-      "open_issues": 72,
-      "language": "Python",
-      "topics": [
-        "ai-agents",
-        "genai"
-      ],
-      "license": "MIT",
-      "archived": false,
-      "fork": false,
-      "created_at": "2024-12-20T13:37:15Z",
-      "updated_at": "2026-08-15T01:48:51Z",
-      "pushed_at": "2026-07-27T05:40:40Z",
-      "matched_queries": [
-        "\"trading bot\" in:name,description,readme archived:false fork:false pushed:>2025-02-15"
-      ],
-      "star_delta_1d": 108,
-      "star_delta_7d": 506,
-      "star_delta_30d": null,
-      "category_guess": [
-        "risk_management",
-        "trading_bot"
-      ],
-      "risk_flags": [
-        "trading_bot"
-      ],
-      "risk_level": "中",
-      "hot_score": 88.64,
-      "ranking_reasons": [
-        "24 小时涨星 +108",
-        "7 日涨星 +506",
-        "总 star 数较高",
-        "近 30 天有 push",
-        "匹配分类：risk_management、trading_bot",
-        "包含风险或用途标记：trading_bot"
-      ],
-      "rank": 18
-    },
-    {
       "id": 995029641,
       "full_name": "ruvnet/ruflo",
       "owner": "ruvnet",
       "name": "ruflo",
       "html_url": "https://github.com/ruvnet/ruflo",
       "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-      "stars": 67872,
-      "forks": 8125,
-      "watchers": 67872,
-      "open_issues": 828,
+      "stars": 67940,
+      "forks": 8135,
+      "watchers": 67940,
+      "open_issues": 829,
       "language": "TypeScript",
       "topics": [
         "agentic-ai",
@@ -1059,16 +1012,16 @@
       "archived": false,
       "fork": false,
       "created_at": "2025-06-02T21:24:20Z",
-      "updated_at": "2026-08-15T01:55:06Z",
-      "pushed_at": "2026-08-14T23:30:57Z",
+      "updated_at": "2026-08-16T02:03:40Z",
+      "pushed_at": "2026-08-15T23:18:25Z",
       "matched_queries": [
-        "\"ai trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtest in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtesting in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtesting in:name,description,readme language:TypeScript archived:false fork:false pushed:>2025-02-15"
+        "\"ai trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtest in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtesting in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtesting in:name,description,readme language:TypeScript archived:false fork:false pushed:>2025-02-16"
       ],
-      "star_delta_1d": 66,
-      "star_delta_7d": 569,
+      "star_delta_1d": 68,
+      "star_delta_7d": 530,
       "star_delta_30d": null,
       "category_guess": [
         "ai_trading",
@@ -1079,204 +1032,16 @@
         "risk_keyword_low"
       ],
       "risk_level": "低",
-      "hot_score": 86.92,
+      "hot_score": 85.47,
       "ranking_reasons": [
-        "24 小时涨星 +66",
-        "7 日涨星 +569",
+        "24 小时涨星 +68",
+        "7 日涨星 +530",
         "总 star 数较高",
         "近 30 天有 push",
         "匹配分类：ai_trading、backtesting",
         "包含风险或用途标记：likely_research_tool、risk_keyword_low"
       ],
-      "rank": 19
-    },
-    {
-      "id": 1217416768,
-      "full_name": "AtomicBot-ai/atomic-agent",
-      "owner": "AtomicBot-ai",
-      "name": "atomic-agent",
-      "html_url": "https://github.com/AtomicBot-ai/atomic-agent",
-      "description": "Local First Ai Agent. Optimized for Local Ai models. Long context window. Proper tools callings. Runs privately on your device.",
-      "stars": 2171,
-      "forks": 206,
-      "watchers": 2171,
-      "open_issues": 24,
-      "language": "TypeScript",
-      "topics": [
-        "agents",
-        "ai-agent",
-        "browser-automation",
-        "cli",
-        "gguf",
-        "hermes-agent",
-        "llama-cpp",
-        "llm",
-        "local-first",
-        "local-llm",
-        "nodejs",
-        "openai",
-        "openclaw",
-        "playwright",
-        "tui",
-        "typescript"
-      ],
-      "license": "MIT",
-      "archived": false,
-      "fork": false,
-      "created_at": "2026-04-21T21:34:51Z",
-      "updated_at": "2026-08-15T01:53:55Z",
-      "pushed_at": "2026-08-14T16:50:07Z",
-      "matched_queries": [
-        "quant in:name,description,readme language:TypeScript archived:false fork:false pushed:>2025-02-15"
-      ],
-      "star_delta_1d": 106,
-      "star_delta_7d": 534,
-      "star_delta_30d": null,
-      "category_guess": [
-        "ai_trading",
-        "quant_research",
-        "trading_bot"
-      ],
-      "risk_flags": [
-        "trading_bot"
-      ],
-      "risk_level": "中",
-      "hot_score": 86.4,
-      "ranking_reasons": [
-        "24 小时涨星 +106",
-        "7 日涨星 +534",
-        "总 star 数较高",
-        "近 30 天有 push",
-        "匹配分类：ai_trading、quant_research、trading_bot",
-        "包含风险或用途标记：trading_bot"
-      ],
-      "rank": 20
-    },
-    {
-      "id": 1231148626,
-      "full_name": "antirez/ds4",
-      "owner": "antirez",
-      "name": "ds4",
-      "html_url": "https://github.com/antirez/ds4",
-      "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
-      "stars": 21393,
-      "forks": 1952,
-      "watchers": 21393,
-      "open_issues": 481,
-      "language": "C",
-      "topics": [],
-      "license": "MIT",
-      "archived": false,
-      "fork": false,
-      "created_at": "2026-05-06T17:17:05Z",
-      "updated_at": "2026-08-15T01:30:14Z",
-      "pushed_at": "2026-08-09T18:31:13Z",
-      "matched_queries": [
-        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-15"
-      ],
-      "star_delta_1d": 63,
-      "star_delta_7d": 498,
-      "star_delta_30d": null,
-      "category_guess": [
-        "quant_research"
-      ],
-      "risk_flags": [],
-      "risk_level": "低",
-      "hot_score": 81.92,
-      "ranking_reasons": [
-        "24 小时涨星 +63",
-        "7 日涨星 +498",
-        "总 star 数较高",
-        "近 30 天有 push",
-        "匹配分类：quant_research"
-      ],
-      "rank": 21
-    },
-    {
-      "id": 1202057891,
-      "full_name": "garrytan/gbrain",
-      "owner": "garrytan",
-      "name": "gbrain",
-      "html_url": "https://github.com/garrytan/gbrain",
-      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
-      "stars": 28450,
-      "forks": 4194,
-      "watchers": 28450,
-      "open_issues": 389,
-      "language": "TypeScript",
-      "topics": [],
-      "license": "MIT",
-      "archived": false,
-      "fork": false,
-      "created_at": "2026-04-05T14:40:56Z",
-      "updated_at": "2026-08-15T01:59:30Z",
-      "pushed_at": "2026-08-14T18:52:01Z",
-      "matched_queries": [
-        "fintech in:name,description,readme archived:false fork:false pushed:>2025-02-15"
-      ],
-      "star_delta_1d": 53,
-      "star_delta_7d": 484,
-      "star_delta_30d": null,
-      "category_guess": [
-        "fintech_product"
-      ],
-      "risk_flags": [],
-      "risk_level": "低",
-      "hot_score": 80.13,
-      "ranking_reasons": [
-        "24 小时涨星 +53",
-        "7 日涨星 +484",
-        "总 star 数较高",
-        "近 30 天有 push",
-        "匹配分类：fintech_product"
-      ],
-      "rank": 22
-    },
-    {
-      "id": 896335270,
-      "full_name": "punkpeye/awesome-mcp-servers",
-      "owner": "punkpeye",
-      "name": "awesome-mcp-servers",
-      "html_url": "https://github.com/punkpeye/awesome-mcp-servers",
-      "description": "A collection of MCP servers.",
-      "stars": 92329,
-      "forks": 14499,
-      "watchers": 92329,
-      "open_issues": 2957,
-      "language": null,
-      "topics": [
-        "ai",
-        "mcp"
-      ],
-      "license": "MIT",
-      "archived": false,
-      "fork": false,
-      "created_at": "2024-11-30T04:49:10Z",
-      "updated_at": "2026-08-15T01:54:17Z",
-      "pushed_at": "2026-08-03T03:09:55Z",
-      "matched_queries": [
-        "arbitrage in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "fintech in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-15"
-      ],
-      "star_delta_1d": 64,
-      "star_delta_7d": 383,
-      "star_delta_30d": null,
-      "category_guess": [
-        "fintech_product",
-        "quant_research"
-      ],
-      "risk_flags": [],
-      "risk_level": "低",
-      "hot_score": 76.97,
-      "ranking_reasons": [
-        "24 小时涨星 +64",
-        "7 日涨星 +383",
-        "总 star 数较高",
-        "近 30 天有 push",
-        "匹配分类：fintech_product、quant_research"
-      ],
-      "rank": 23
+      "rank": 18
     },
     {
       "id": 969302809,
@@ -1285,10 +1050,10 @@
       "name": "awesome-claude-code",
       "html_url": "https://github.com/hesreallyhim/awesome-claude-code",
       "description": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins",
-      "stars": 52311,
-      "forks": 4577,
-      "watchers": 52311,
-      "open_issues": 855,
+      "stars": 52388,
+      "forks": 4582,
+      "watchers": 52388,
+      "open_issues": 859,
       "language": "Python",
       "topics": [
         "agent-skills",
@@ -1315,14 +1080,14 @@
       "archived": false,
       "fork": false,
       "created_at": "2025-04-19T20:55:59Z",
-      "updated_at": "2026-08-15T00:37:33Z",
-      "pushed_at": "2026-08-15T00:12:43Z",
+      "updated_at": "2026-08-16T02:04:08Z",
+      "pushed_at": "2026-08-16T00:12:55Z",
       "matched_queries": [
-        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "quant in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-15"
+        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "quant in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-16"
       ],
-      "star_delta_1d": 44,
-      "star_delta_7d": 444,
+      "star_delta_1d": 77,
+      "star_delta_7d": 448,
       "star_delta_30d": null,
       "category_guess": [
         "ai_trading",
@@ -1330,76 +1095,246 @@
       ],
       "risk_flags": [],
       "risk_level": "低",
-      "hot_score": 74.11,
+      "hot_score": 82.56,
       "ranking_reasons": [
-        "24 小时涨星 +44",
-        "7 日涨星 +444",
+        "24 小时涨星 +77",
+        "7 日涨星 +448",
         "总 star 数较高",
         "近 30 天有 push",
         "匹配分类：ai_trading、quant_research"
       ],
-      "rank": 24
+      "rank": 19
     },
     {
-      "id": 642497346,
-      "full_name": "langfuse/langfuse",
-      "owner": "langfuse",
-      "name": "langfuse",
-      "html_url": "https://github.com/langfuse/langfuse",
-      "description": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 ",
-      "stars": 33119,
-      "forks": 3569,
-      "watchers": 33119,
-      "open_issues": 780,
-      "language": "TypeScript",
-      "topics": [
-        "analytics",
-        "autogen",
-        "evaluation",
-        "langchain",
-        "large-language-models",
-        "llama-index",
-        "llm",
-        "llm-evaluation",
-        "llm-observability",
-        "llmops",
-        "monitoring",
-        "observability",
-        "open-source",
-        "openai",
-        "playground",
-        "prompt-engineering",
-        "prompt-management",
-        "self-hosted",
-        "ycombinator"
-      ],
-      "license": "Other",
+      "id": 697193688,
+      "full_name": "codeman008/Financial_freedom",
+      "owner": "codeman008",
+      "name": "Financial_freedom",
+      "html_url": "https://github.com/codeman008/Financial_freedom",
+      "description": "Technical guide to making money and investing（最全赚钱投资指南）",
+      "stars": 2400,
+      "forks": 459,
+      "watchers": 2400,
+      "open_issues": 2,
+      "language": null,
+      "topics": [],
+      "license": null,
       "archived": false,
       "fork": false,
-      "created_at": "2023-05-18T17:47:09Z",
-      "updated_at": "2026-08-15T01:59:55Z",
-      "pushed_at": "2026-08-14T21:54:35Z",
+      "created_at": "2023-09-27T08:40:59Z",
+      "updated_at": "2026-08-16T02:09:08Z",
+      "pushed_at": "2026-08-06T12:46:02Z",
       "matched_queries": [
-        "fintech in:name,description,readme archived:false fork:false pushed:>2025-02-15"
+        "\"crypto trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-16"
       ],
-      "star_delta_1d": 48,
-      "star_delta_7d": 404,
+      "star_delta_1d": 195,
+      "star_delta_7d": 467,
       "star_delta_30d": null,
       "category_guess": [
-        "ai_trading",
+        "crypto_trading"
+      ],
+      "risk_flags": [
+        "crypto_related"
+      ],
+      "risk_level": "中",
+      "hot_score": 79.52,
+      "ranking_reasons": [
+        "24 小时涨星 +195",
+        "7 日涨星 +467",
+        "总 star 数较高",
+        "近 30 天有 push",
+        "匹配分类：crypto_trading",
+        "包含风险或用途标记：crypto_related"
+      ],
+      "rank": 20
+    },
+    {
+      "id": 1202057891,
+      "full_name": "garrytan/gbrain",
+      "owner": "garrytan",
+      "name": "gbrain",
+      "html_url": "https://github.com/garrytan/gbrain",
+      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+      "stars": 28499,
+      "forks": 4201,
+      "watchers": 28499,
+      "open_issues": 426,
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "archived": false,
+      "fork": false,
+      "created_at": "2026-04-05T14:40:56Z",
+      "updated_at": "2026-08-16T02:06:46Z",
+      "pushed_at": "2026-08-16T01:59:06Z",
+      "matched_queries": [
+        "fintech in:name,description,readme archived:false fork:false pushed:>2025-02-16"
+      ],
+      "star_delta_1d": 49,
+      "star_delta_7d": 477,
+      "star_delta_30d": null,
+      "category_guess": [
         "fintech_product"
       ],
       "risk_flags": [],
       "risk_level": "低",
-      "hot_score": 71.89,
+      "hot_score": 78.81,
       "ranking_reasons": [
-        "24 小时涨星 +48",
-        "7 日涨星 +404",
+        "24 小时涨星 +49",
+        "7 日涨星 +477",
         "总 star 数较高",
         "近 30 天有 push",
-        "匹配分类：ai_trading、fintech_product"
+        "匹配分类：fintech_product"
       ],
-      "rank": 25
+      "rank": 21
+    },
+    {
+      "id": 896335270,
+      "full_name": "punkpeye/awesome-mcp-servers",
+      "owner": "punkpeye",
+      "name": "awesome-mcp-servers",
+      "html_url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "description": "A collection of MCP servers.",
+      "stars": 92393,
+      "forks": 14533,
+      "watchers": 92393,
+      "open_issues": 2983,
+      "language": null,
+      "topics": [
+        "ai",
+        "mcp"
+      ],
+      "license": "MIT",
+      "archived": false,
+      "fork": false,
+      "created_at": "2024-11-30T04:49:10Z",
+      "updated_at": "2026-08-16T01:43:04Z",
+      "pushed_at": "2026-08-03T03:09:55Z",
+      "matched_queries": [
+        "arbitrage in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "fintech in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-16"
+      ],
+      "star_delta_1d": 64,
+      "star_delta_7d": 416,
+      "star_delta_30d": null,
+      "category_guess": [
+        "fintech_product",
+        "quant_research"
+      ],
+      "risk_flags": [],
+      "risk_level": "低",
+      "hot_score": 78.51,
+      "ranking_reasons": [
+        "24 小时涨星 +64",
+        "7 日涨星 +416",
+        "总 star 数较高",
+        "近 30 天有 push",
+        "匹配分类：fintech_product、quant_research"
+      ],
+      "rank": 22
+    },
+    {
+      "id": 1217416768,
+      "full_name": "AtomicBot-ai/atomic-agent",
+      "owner": "AtomicBot-ai",
+      "name": "atomic-agent",
+      "html_url": "https://github.com/AtomicBot-ai/atomic-agent",
+      "description": "Local First Ai Agent. Optimized for Local Ai models. Long context window. Proper tools callings. Runs privately on your device.",
+      "stars": 2226,
+      "forks": 209,
+      "watchers": 2226,
+      "open_issues": 25,
+      "language": "TypeScript",
+      "topics": [
+        "agents",
+        "ai-agent",
+        "browser-automation",
+        "cli",
+        "gguf",
+        "hermes-agent",
+        "llama-cpp",
+        "llm",
+        "local-first",
+        "local-llm",
+        "nodejs",
+        "openai",
+        "openclaw",
+        "playwright",
+        "tui",
+        "typescript"
+      ],
+      "license": "MIT",
+      "archived": false,
+      "fork": false,
+      "created_at": "2026-04-21T21:34:51Z",
+      "updated_at": "2026-08-16T00:47:01Z",
+      "pushed_at": "2026-08-14T16:50:07Z",
+      "matched_queries": [
+        "quant in:name,description,readme language:TypeScript archived:false fork:false pushed:>2025-02-16"
+      ],
+      "star_delta_1d": 55,
+      "star_delta_7d": 569,
+      "star_delta_30d": null,
+      "category_guess": [
+        "ai_trading",
+        "quant_research",
+        "trading_bot"
+      ],
+      "risk_flags": [
+        "trading_bot"
+      ],
+      "risk_level": "中",
+      "hot_score": 76.84,
+      "ranking_reasons": [
+        "24 小时涨星 +55",
+        "7 日涨星 +569",
+        "总 star 数较高",
+        "近 30 天有 push",
+        "匹配分类：ai_trading、quant_research、trading_bot",
+        "包含风险或用途标记：trading_bot"
+      ],
+      "rank": 23
+    },
+    {
+      "id": 1231148626,
+      "full_name": "antirez/ds4",
+      "owner": "antirez",
+      "name": "ds4",
+      "html_url": "https://github.com/antirez/ds4",
+      "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
+      "stars": 21440,
+      "forks": 1960,
+      "watchers": 21440,
+      "open_issues": 484,
+      "language": "C",
+      "topics": [],
+      "license": "MIT",
+      "archived": false,
+      "fork": false,
+      "created_at": "2026-05-06T17:17:05Z",
+      "updated_at": "2026-08-16T01:04:27Z",
+      "pushed_at": "2026-08-09T18:31:13Z",
+      "matched_queries": [
+        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-16"
+      ],
+      "star_delta_1d": 47,
+      "star_delta_7d": 456,
+      "star_delta_30d": null,
+      "category_guess": [
+        "quant_research"
+      ],
+      "risk_flags": [],
+      "risk_level": "低",
+      "hot_score": 75.7,
+      "ranking_reasons": [
+        "24 小时涨星 +47",
+        "7 日涨星 +456",
+        "总 star 数较高",
+        "近 30 天有 push",
+        "匹配分类：quant_research"
+      ],
+      "rank": 24
     },
     {
       "id": 1108837393,
@@ -1408,10 +1343,10 @@
       "name": "oh-my-openagent",
       "html_url": "https://github.com/code-yeongyu/oh-my-openagent",
       "description": "omo/lazycodex: The coding agent for tokenmaxxers;the one and only agent harness for complex codebases. For your Codex, for your OpenCode",
-      "stars": 67872,
-      "forks": 5551,
-      "watchers": 67872,
-      "open_issues": 753,
+      "stars": 67917,
+      "forks": 5550,
+      "watchers": 67917,
+      "open_issues": 755,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -1434,70 +1369,129 @@
       "archived": false,
       "fork": false,
       "created_at": "2025-12-03T01:40:05Z",
-      "updated_at": "2026-08-15T01:16:07Z",
-      "pushed_at": "2026-08-14T12:56:55Z",
+      "updated_at": "2026-08-16T01:58:24Z",
+      "pushed_at": "2026-08-15T14:14:50Z",
       "matched_queries": [
-        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "quant in:name,description,readme language:TypeScript archived:false fork:false pushed:>2025-02-15"
+        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "quant in:name,description,readme language:TypeScript archived:false fork:false pushed:>2025-02-16"
       ],
-      "star_delta_1d": 30,
-      "star_delta_7d": 410,
+      "star_delta_1d": 45,
+      "star_delta_7d": 401,
       "star_delta_30d": null,
       "category_guess": [
         "quant_research"
       ],
       "risk_flags": [],
       "risk_level": "低",
-      "hot_score": 71.09,
+      "hot_score": 74.39,
       "ranking_reasons": [
-        "24 小时涨星 +30",
-        "7 日涨星 +410",
+        "24 小时涨星 +45",
+        "7 日涨星 +401",
         "总 star 数较高",
         "近 30 天有 push",
         "匹配分类：quant_research"
       ],
+      "rank": 25
+    },
+    {
+      "id": 906251482,
+      "full_name": "ashishpatel26/500-AI-Agents-Projects",
+      "owner": "ashishpatel26",
+      "name": "500-AI-Agents-Projects",
+      "html_url": "https://github.com/ashishpatel26/500-AI-Agents-Projects",
+      "description": "The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more.",
+      "stars": 36532,
+      "forks": 6521,
+      "watchers": 36532,
+      "open_issues": 72,
+      "language": "Python",
+      "topics": [
+        "ai-agents",
+        "genai"
+      ],
+      "license": "MIT",
+      "archived": false,
+      "fork": false,
+      "created_at": "2024-12-20T13:37:15Z",
+      "updated_at": "2026-08-16T00:23:38Z",
+      "pushed_at": "2026-07-27T05:40:40Z",
+      "matched_queries": [
+        "\"trading bot\" in:name,description,readme archived:false fork:false pushed:>2025-02-16"
+      ],
+      "star_delta_1d": 39,
+      "star_delta_7d": 481,
+      "star_delta_30d": null,
+      "category_guess": [
+        "risk_management",
+        "trading_bot"
+      ],
+      "risk_flags": [
+        "trading_bot"
+      ],
+      "risk_level": "中",
+      "hot_score": 72.04,
+      "ranking_reasons": [
+        "24 小时涨星 +39",
+        "7 日涨星 +481",
+        "总 star 数较高",
+        "近 30 天有 push",
+        "匹配分类：risk_management、trading_bot",
+        "包含风险或用途标记：trading_bot"
+      ],
       "rank": 26
     },
     {
-      "id": 697193688,
-      "full_name": "codeman008/Financial_freedom",
-      "owner": "codeman008",
-      "name": "Financial_freedom",
-      "html_url": "https://github.com/codeman008/Financial_freedom",
-      "description": "Technical guide to making money and investing（最全赚钱投资指南）",
-      "stars": 2205,
-      "forks": 433,
-      "watchers": 2205,
-      "open_issues": 2,
-      "language": null,
-      "topics": [],
-      "license": null,
+      "id": 1313434625,
+      "full_name": "AmazingAng/old-coder",
+      "owner": "AmazingAng",
+      "name": "old-coder",
+      "html_url": "https://github.com/AmazingAng/old-coder",
+      "description": "An old coder's strategy for the agent era: don't read the code — make it run the gauntlet. Evidence-first development skill for coding agents, inspired by Uncle Bob.",
+      "stars": 584,
+      "forks": 43,
+      "watchers": 584,
+      "open_issues": 4,
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "ai-coding",
+        "claude-code",
+        "code-quality",
+        "codex",
+        "cursor",
+        "llm",
+        "mutation-testing",
+        "property-based-testing",
+        "skills",
+        "software-testing",
+        "spec-driven-development",
+        "tdd"
+      ],
+      "license": "MIT",
       "archived": false,
       "fork": false,
-      "created_at": "2023-09-27T08:40:59Z",
-      "updated_at": "2026-08-15T01:59:55Z",
-      "pushed_at": "2026-08-06T12:46:02Z",
+      "created_at": "2026-07-27T05:03:11Z",
+      "updated_at": "2026-08-16T01:44:41Z",
+      "pushed_at": "2026-08-15T11:29:02Z",
       "matched_queries": [
-        "\"crypto trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-15"
+        "\"risk model\" in:name,description,readme archived:false fork:false pushed:>2025-02-16"
       ],
-      "star_delta_1d": 212,
-      "star_delta_7d": 274,
+      "star_delta_1d": 129,
+      "star_delta_7d": 246,
       "star_delta_30d": null,
       "category_guess": [
-        "crypto_trading"
+        "ai_trading",
+        "risk_management"
       ],
-      "risk_flags": [
-        "crypto_related"
-      ],
-      "risk_level": "中",
-      "hot_score": 69.74,
+      "risk_flags": [],
+      "risk_level": "低",
+      "hot_score": 69.08,
       "ranking_reasons": [
-        "24 小时涨星 +212",
-        "7 日涨星 +274",
-        "总 star 数较高",
+        "24 小时涨星 +129",
+        "7 日涨星 +246",
         "近 30 天有 push",
-        "匹配分类：crypto_trading",
-        "包含风险或用途标记：crypto_related"
+        "匹配分类：ai_trading、risk_management"
       ],
       "rank": 27
     },
@@ -1508,9 +1502,9 @@
       "name": "ai-berkshire",
       "html_url": "https://github.com/xbtlin/ai-berkshire",
       "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
-      "stars": 15538,
-      "forks": 2305,
-      "watchers": 15538,
+      "stars": 15581,
+      "forks": 2313,
+      "watchers": 15581,
       "open_issues": 31,
       "language": "Python",
       "topics": [
@@ -1539,14 +1533,14 @@
       "archived": false,
       "fork": false,
       "created_at": "2026-04-07T11:19:51Z",
-      "updated_at": "2026-08-14T21:20:32Z",
-      "pushed_at": "2026-08-14T18:22:17Z",
+      "updated_at": "2026-08-16T01:45:15Z",
+      "pushed_at": "2026-08-15T15:09:54Z",
       "matched_queries": [
-        "topic:fintech archived:false fork:false pushed:>2025-02-15",
-        "topic:stock-market archived:false fork:false pushed:>2025-02-15"
+        "topic:fintech archived:false fork:false pushed:>2025-02-16",
+        "topic:stock-market archived:false fork:false pushed:>2025-02-16"
       ],
-      "star_delta_1d": 25,
-      "star_delta_7d": 347,
+      "star_delta_1d": 43,
+      "star_delta_7d": 330,
       "star_delta_30d": null,
       "category_guess": [
         "ai_trading",
@@ -1557,10 +1551,10 @@
         "likely_research_tool"
       ],
       "risk_level": "低",
-      "hot_score": 64.47,
+      "hot_score": 68.1,
       "ranking_reasons": [
-        "24 小时涨星 +25",
-        "7 日涨星 +347",
+        "24 小时涨星 +43",
+        "7 日涨星 +330",
         "总 star 数较高",
         "近 30 天有 push",
         "匹配分类：ai_trading、fintech_product、quant_research",
@@ -1569,15 +1563,292 @@
       "rank": 28
     },
     {
+      "id": 1235056479,
+      "full_name": "simonlin1212/a-stock-data",
+      "owner": "simonlin1212",
+      "name": "a-stock-data",
+      "html_url": "https://github.com/simonlin1212/a-stock-data",
+      "description": "A股全栈数据工具包 · 10层架构 · 43端点(含3官方备胎) · 15数据源 · 行情/研报/资金面/筹码/公告/打板/ETF期权/舆情互动全覆盖+备用源降级 | China A-Share full-stack data toolkit (43 endpoints)",
+      "stars": 8780,
+      "forks": 1605,
+      "watchers": 8780,
+      "open_issues": 2,
+      "language": null,
+      "topics": [
+        "a-share",
+        "ai-agent",
+        "ai-skill",
+        "china-stocks",
+        "claude-code",
+        "financial-data",
+        "fintech",
+        "investment-research",
+        "llm-tools",
+        "market-data",
+        "python",
+        "quantitative-finance",
+        "stock-market",
+        "trading"
+      ],
+      "license": "Apache-2.0",
+      "archived": false,
+      "fork": false,
+      "created_at": "2026-05-11T01:08:15Z",
+      "updated_at": "2026-08-16T00:29:00Z",
+      "pushed_at": "2026-08-09T02:46:03Z",
+      "matched_queries": [
+        "topic:fintech archived:false fork:false pushed:>2025-02-16",
+        "topic:quantitative-finance archived:false fork:false pushed:>2025-02-16",
+        "topic:stock-market archived:false fork:false pushed:>2025-02-16"
+      ],
+      "star_delta_1d": 37,
+      "star_delta_7d": 303,
+      "star_delta_30d": null,
+      "category_guess": [
+        "ai_trading",
+        "fintech_product",
+        "quant_research"
+      ],
+      "risk_flags": [
+        "likely_research_tool"
+      ],
+      "risk_level": "低",
+      "hot_score": 63.42,
+      "ranking_reasons": [
+        "24 小时涨星 +37",
+        "7 日涨星 +303",
+        "总 star 数较高",
+        "近 30 天有 push",
+        "匹配分类：ai_trading、fintech_product、quant_research",
+        "包含风险或用途标记：likely_research_tool"
+      ],
+      "rank": 29
+    },
+    {
+      "id": 323048702,
+      "full_name": "OpenBB-finance/OpenBB",
+      "owner": "OpenBB-finance",
+      "name": "OpenBB",
+      "html_url": "https://github.com/OpenBB-finance/OpenBB",
+      "description": "Open Data Platform for analysts, quants and AI agents.",
+      "stars": 71895,
+      "forks": 7404,
+      "watchers": 71895,
+      "open_issues": 109,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "crypto",
+        "derivatives",
+        "economics",
+        "equity",
+        "finance",
+        "fixed-income",
+        "machine-learning",
+        "openbb",
+        "options",
+        "python",
+        "quantitative-finance",
+        "stocks"
+      ],
+      "license": "Other",
+      "archived": false,
+      "fork": false,
+      "created_at": "2020-12-20T10:46:38Z",
+      "updated_at": "2026-08-16T01:48:45Z",
+      "pushed_at": "2026-07-30T17:33:42Z",
+      "matched_queries": [
+        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "quant in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-16",
+        "topic:finance archived:false fork:false pushed:>2025-02-16",
+        "topic:quantitative-finance archived:false fork:false pushed:>2025-02-16"
+      ],
+      "star_delta_1d": 32,
+      "star_delta_7d": 274,
+      "star_delta_30d": null,
+      "category_guess": [
+        "crypto_trading",
+        "quant_research"
+      ],
+      "risk_flags": [
+        "crypto_related"
+      ],
+      "risk_level": "中",
+      "hot_score": 61.9,
+      "ranking_reasons": [
+        "24 小时涨星 +32",
+        "7 日涨星 +274",
+        "总 star 数较高",
+        "近 30 天有 push",
+        "匹配分类：crypto_trading、quant_research",
+        "包含风险或用途标记：crypto_related"
+      ],
+      "rank": 30
+    },
+    {
+      "id": 1165361576,
+      "full_name": "cactus-compute/needle",
+      "owner": "cactus-compute",
+      "name": "needle",
+      "html_url": "https://github.com/cactus-compute/needle",
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "stars": 6084,
+      "forks": 407,
+      "watchers": 6084,
+      "open_issues": 25,
+      "language": "Python",
+      "topics": [
+        "cactus",
+        "gemini",
+        "gemma",
+        "llm",
+        "on-device-ai"
+      ],
+      "license": "MIT",
+      "archived": false,
+      "fork": false,
+      "created_at": "2026-02-24T04:50:47Z",
+      "updated_at": "2026-08-16T02:07:19Z",
+      "pushed_at": "2026-08-15T16:03:14Z",
+      "matched_queries": [
+        "quant in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-16"
+      ],
+      "star_delta_1d": 456,
+      "star_delta_7d": null,
+      "star_delta_30d": null,
+      "category_guess": [
+        "ai_trading",
+        "quant_research",
+        "trading_bot"
+      ],
+      "risk_flags": [
+        "trading_bot"
+      ],
+      "risk_level": "中",
+      "hot_score": 61.73,
+      "ranking_reasons": [
+        "24 小时涨星 +456",
+        "总 star 数较高",
+        "近 30 天有 push",
+        "匹配分类：ai_trading、quant_research、trading_bot",
+        "包含风险或用途标记：trading_bot"
+      ],
+      "rank": 31
+    },
+    {
+      "id": 91629816,
+      "full_name": "freqtrade/freqtrade",
+      "owner": "freqtrade",
+      "name": "freqtrade",
+      "html_url": "https://github.com/freqtrade/freqtrade",
+      "description": "Free, open source crypto trading bot",
+      "stars": 53316,
+      "forks": 11082,
+      "watchers": 53316,
+      "open_issues": 33,
+      "language": "Python",
+      "topics": [
+        "algorithmic-trading",
+        "bitcoin",
+        "cryptocurrencies",
+        "cryptocurrency",
+        "freqtrade",
+        "python",
+        "telegram-bot",
+        "trade",
+        "trading-bot"
+      ],
+      "license": "GPL-3.0",
+      "archived": false,
+      "fork": false,
+      "created_at": "2017-05-17T23:48:53Z",
+      "updated_at": "2026-08-16T02:01:24Z",
+      "pushed_at": "2026-08-15T15:27:43Z",
+      "matched_queries": [
+        "\"crypto trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "\"trading bot\" in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtest in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtesting in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtesting in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-16",
+        "topic:algorithmic-trading archived:false fork:false pushed:>2025-02-16",
+        "topic:trading-bot archived:false fork:false pushed:>2025-02-16"
+      ],
+      "star_delta_1d": 33,
+      "star_delta_7d": 227,
+      "star_delta_30d": null,
+      "category_guess": [
+        "backtesting",
+        "crypto_trading",
+        "trading_bot"
+      ],
+      "risk_flags": [
+        "crypto_related",
+        "likely_research_tool",
+        "risk_keyword_low",
+        "trading_bot"
+      ],
+      "risk_level": "中",
+      "hot_score": 61.27,
+      "ranking_reasons": [
+        "24 小时涨星 +33",
+        "7 日涨星 +227",
+        "总 star 数较高",
+        "近 30 天有 push",
+        "匹配分类：backtesting、crypto_trading、trading_bot",
+        "包含风险或用途标记：crypto_related、likely_research_tool、risk_keyword_low"
+      ],
+      "rank": 32
+    },
+    {
+      "id": 1213108633,
+      "full_name": "OpenSenseNova/SenseNova-U1",
+      "owner": "OpenSenseNova",
+      "name": "SenseNova-U1",
+      "html_url": "https://github.com/OpenSenseNova/SenseNova-U1",
+      "description": "SenseNova-U series: Native Unified Paradigm with NEO-unify from the First Principles",
+      "stars": 4829,
+      "forks": 411,
+      "watchers": 4829,
+      "open_issues": 37,
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "archived": false,
+      "fork": false,
+      "created_at": "2026-04-17T03:46:29Z",
+      "updated_at": "2026-08-16T01:21:32Z",
+      "pushed_at": "2026-08-15T10:18:52Z",
+      "matched_queries": [
+        "quant in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-16"
+      ],
+      "star_delta_1d": 38,
+      "star_delta_7d": 260,
+      "star_delta_30d": null,
+      "category_guess": [
+        "quant_research"
+      ],
+      "risk_flags": [],
+      "risk_level": "低",
+      "hot_score": 59.42,
+      "ranking_reasons": [
+        "24 小时涨星 +38",
+        "7 日涨星 +260",
+        "总 star 数较高",
+        "近 30 天有 push",
+        "匹配分类：quant_research"
+      ],
+      "rank": 33
+    },
+    {
       "id": 1124295269,
       "full_name": "OpenByteInc/QuantDinger",
       "owner": "OpenByteInc",
       "name": "QuantDinger",
       "html_url": "https://github.com/OpenByteInc/QuantDinger",
       "description": "AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading",
-      "stars": 10678,
-      "forks": 2250,
-      "watchers": 10678,
+      "stars": 10700,
+      "forks": 2253,
+      "watchers": 10700,
       "open_issues": 54,
       "language": "Python",
       "topics": [
@@ -1606,24 +1877,24 @@
       "archived": false,
       "fork": false,
       "created_at": "2025-12-28T18:39:26Z",
-      "updated_at": "2026-08-15T01:41:19Z",
+      "updated_at": "2026-08-16T00:48:29Z",
       "pushed_at": "2026-08-14T13:38:37Z",
       "matched_queries": [
-        "\"ai trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtest in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtesting in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtesting in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-15",
-        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "quant in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-15",
-        "topic:backtesting archived:false fork:false pushed:>2025-02-15",
-        "topic:finance archived:false fork:false pushed:>2025-02-15",
-        "topic:fintech archived:false fork:false pushed:>2025-02-15",
-        "topic:forex archived:false fork:false pushed:>2025-02-15",
-        "topic:quant archived:false fork:false pushed:>2025-02-15",
-        "topic:quantitative-finance archived:false fork:false pushed:>2025-02-15"
+        "\"ai trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtest in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtesting in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtesting in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-16",
+        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "quant in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-16",
+        "topic:backtesting archived:false fork:false pushed:>2025-02-16",
+        "topic:finance archived:false fork:false pushed:>2025-02-16",
+        "topic:fintech archived:false fork:false pushed:>2025-02-16",
+        "topic:forex archived:false fork:false pushed:>2025-02-16",
+        "topic:quant archived:false fork:false pushed:>2025-02-16",
+        "topic:quantitative-finance archived:false fork:false pushed:>2025-02-16"
       ],
-      "star_delta_1d": 37,
-      "star_delta_7d": 311,
+      "star_delta_1d": 22,
+      "star_delta_7d": 299,
       "star_delta_30d": null,
       "category_guess": [
         "ai_trading",
@@ -1640,189 +1911,60 @@
         "risk_keyword_low"
       ],
       "risk_level": "中",
-      "hot_score": 63.45,
+      "hot_score": 58.98,
       "ranking_reasons": [
-        "24 小时涨星 +37",
-        "7 日涨星 +311",
+        "24 小时涨星 +22",
+        "7 日涨星 +299",
         "总 star 数较高",
         "近 30 天有 push",
         "匹配分类：ai_trading、backtesting、crypto_trading",
         "包含风险或用途标记：crypto_related、likely_research_tool、risk_keyword_low"
       ],
-      "rank": 29
+      "rank": 34
     },
     {
-      "id": 1235056479,
-      "full_name": "simonlin1212/a-stock-data",
-      "owner": "simonlin1212",
-      "name": "a-stock-data",
-      "html_url": "https://github.com/simonlin1212/a-stock-data",
-      "description": "A股全栈数据工具包 · 10层架构 · 43端点(含3官方备胎) · 15数据源 · 行情/研报/资金面/筹码/公告/打板/ETF期权/舆情互动全覆盖+备用源降级 | China A-Share full-stack data toolkit (43 endpoints)",
-      "stars": 8743,
-      "forks": 1602,
-      "watchers": 8743,
-      "open_issues": 2,
-      "language": null,
-      "topics": [
-        "a-share",
-        "ai-agent",
-        "ai-skill",
-        "china-stocks",
-        "claude-code",
-        "financial-data",
-        "fintech",
-        "investment-research",
-        "llm-tools",
-        "market-data",
-        "python",
-        "quantitative-finance",
-        "stock-market",
-        "trading"
-      ],
-      "license": "Apache-2.0",
-      "archived": false,
-      "fork": false,
-      "created_at": "2026-05-11T01:08:15Z",
-      "updated_at": "2026-08-15T01:54:04Z",
-      "pushed_at": "2026-08-09T02:46:03Z",
-      "matched_queries": [
-        "topic:fintech archived:false fork:false pushed:>2025-02-15",
-        "topic:quantitative-finance archived:false fork:false pushed:>2025-02-15",
-        "topic:stock-market archived:false fork:false pushed:>2025-02-15"
-      ],
-      "star_delta_1d": 33,
-      "star_delta_7d": 295,
-      "star_delta_30d": null,
-      "category_guess": [
-        "ai_trading",
-        "fintech_product",
-        "quant_research"
-      ],
-      "risk_flags": [
-        "likely_research_tool"
-      ],
-      "risk_level": "低",
-      "hot_score": 62.14,
-      "ranking_reasons": [
-        "24 小时涨星 +33",
-        "7 日涨星 +295",
-        "总 star 数较高",
-        "近 30 天有 push",
-        "匹配分类：ai_trading、fintech_product、quant_research",
-        "包含风险或用途标记：likely_research_tool"
-      ],
-      "rank": 30
-    },
-    {
-      "id": 1165361576,
-      "full_name": "cactus-compute/needle",
-      "owner": "cactus-compute",
-      "name": "needle",
-      "html_url": "https://github.com/cactus-compute/needle",
-      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
-      "stars": 5628,
-      "forks": 374,
-      "watchers": 5628,
-      "open_issues": 22,
-      "language": "Python",
-      "topics": [
-        "cactus",
-        "gemini",
-        "gemma",
-        "llm",
-        "on-device-ai"
-      ],
-      "license": "MIT",
-      "archived": false,
-      "fork": false,
-      "created_at": "2026-02-24T04:50:47Z",
-      "updated_at": "2026-08-15T01:53:39Z",
-      "pushed_at": "2026-08-14T19:00:52Z",
-      "matched_queries": [
-        "quant in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-15"
-      ],
-      "star_delta_1d": 607,
-      "star_delta_7d": null,
-      "star_delta_30d": null,
-      "category_guess": [
-        "ai_trading",
-        "quant_research",
-        "trading_bot"
-      ],
-      "risk_flags": [
-        "trading_bot"
-      ],
-      "risk_level": "中",
-      "hot_score": 61.51,
-      "ranking_reasons": [
-        "24 小时涨星 +607",
-        "总 star 数较高",
-        "近 30 天有 push",
-        "匹配分类：ai_trading、quant_research、trading_bot",
-        "包含风险或用途标记：trading_bot"
-      ],
-      "rank": 31
-    },
-    {
-      "id": 323048702,
-      "full_name": "OpenBB-finance/OpenBB",
-      "owner": "OpenBB-finance",
-      "name": "OpenBB",
-      "html_url": "https://github.com/OpenBB-finance/OpenBB",
-      "description": "Open Data Platform for analysts, quants and AI agents.",
-      "stars": 71863,
-      "forks": 7398,
-      "watchers": 71863,
-      "open_issues": 109,
-      "language": "Python",
+      "id": 1181479848,
+      "full_name": "calesthio/Crucix",
+      "owner": "calesthio",
+      "name": "Crucix",
+      "html_url": "https://github.com/calesthio/Crucix",
+      "description": "Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes.",
+      "stars": 11400,
+      "forks": 1792,
+      "watchers": 11400,
+      "open_issues": 73,
+      "language": "JavaScript",
       "topics": [
         "ai",
-        "crypto",
-        "derivatives",
-        "economics",
-        "equity",
-        "finance",
-        "fixed-income",
-        "machine-learning",
-        "openbb",
-        "options",
-        "python",
-        "quantitative-finance",
-        "stocks"
+        "intelligence",
+        "osint"
       ],
-      "license": "Other",
+      "license": "AGPL-3.0",
       "archived": false,
       "fork": false,
-      "created_at": "2020-12-20T10:46:38Z",
-      "updated_at": "2026-08-14T23:00:46Z",
-      "pushed_at": "2026-07-30T17:33:42Z",
+      "created_at": "2026-03-14T07:33:06Z",
+      "updated_at": "2026-08-16T02:09:56Z",
+      "pushed_at": "2026-05-20T00:50:21Z",
       "matched_queries": [
-        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "quant in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-15",
-        "topic:finance archived:false fork:false pushed:>2025-02-15",
-        "topic:quantitative-finance archived:false fork:false pushed:>2025-02-15"
+        "\"ai trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-16"
       ],
-      "star_delta_1d": 16,
-      "star_delta_7d": 301,
+      "star_delta_1d": 70,
+      "star_delta_7d": 206,
       "star_delta_30d": null,
       "category_guess": [
-        "crypto_trading",
-        "quant_research"
+        "ai_trading"
       ],
-      "risk_flags": [
-        "crypto_related"
-      ],
-      "risk_level": "中",
-      "hot_score": 59.36,
+      "risk_flags": [],
+      "risk_level": "低",
+      "hot_score": 57.69,
       "ranking_reasons": [
-        "24 小时涨星 +16",
-        "7 日涨星 +301",
+        "24 小时涨星 +70",
+        "7 日涨星 +206",
         "总 star 数较高",
-        "近 30 天有 push",
-        "匹配分类：crypto_trading、quant_research",
-        "包含风险或用途标记：crypto_related"
+        "近 90 天有 push",
+        "匹配分类：ai_trading"
       ],
-      "rank": 32
+      "rank": 35
     },
     {
       "id": 1229774092,
@@ -1831,10 +1973,10 @@
       "name": "Claude-BugHunter",
       "html_url": "https://github.com/elementalsouls/Claude-BugHunter",
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-      "stars": 3582,
-      "forks": 554,
-      "watchers": 3582,
-      "open_issues": 1,
+      "stars": 3608,
+      "forks": 558,
+      "watchers": 3608,
+      "open_issues": 0,
       "language": "Python",
       "topics": [
         "ai-security",
@@ -1858,226 +2000,28 @@
       "archived": false,
       "fork": false,
       "created_at": "2026-05-05T11:22:32Z",
-      "updated_at": "2026-08-14T22:11:52Z",
-      "pushed_at": "2026-08-11T09:23:33Z",
+      "updated_at": "2026-08-16T00:07:25Z",
+      "pushed_at": "2026-08-15T18:43:55Z",
       "matched_queries": [
-        "fintech in:name,description,readme archived:false fork:false pushed:>2025-02-15"
+        "fintech in:name,description,readme archived:false fork:false pushed:>2025-02-16"
       ],
-      "star_delta_1d": 38,
-      "star_delta_7d": 254,
+      "star_delta_1d": 26,
+      "star_delta_7d": 272,
       "star_delta_30d": null,
       "category_guess": [
         "fintech_product"
       ],
       "risk_flags": [],
       "risk_level": "低",
-      "hot_score": 58.66,
+      "hot_score": 56.94,
       "ranking_reasons": [
-        "24 小时涨星 +38",
-        "7 日涨星 +254",
+        "24 小时涨星 +26",
+        "7 日涨星 +272",
         "总 star 数较高",
         "近 30 天有 push",
         "匹配分类：fintech_product"
       ],
-      "rank": 33
-    },
-    {
-      "id": 91629816,
-      "full_name": "freqtrade/freqtrade",
-      "owner": "freqtrade",
-      "name": "freqtrade",
-      "html_url": "https://github.com/freqtrade/freqtrade",
-      "description": "Free, open source crypto trading bot",
-      "stars": 53283,
-      "forks": 11071,
-      "watchers": 53283,
-      "open_issues": 32,
-      "language": "Python",
-      "topics": [
-        "algorithmic-trading",
-        "bitcoin",
-        "cryptocurrencies",
-        "cryptocurrency",
-        "freqtrade",
-        "python",
-        "telegram-bot",
-        "trade",
-        "trading-bot"
-      ],
-      "license": "GPL-3.0",
-      "archived": false,
-      "fork": false,
-      "created_at": "2017-05-17T23:48:53Z",
-      "updated_at": "2026-08-15T00:59:11Z",
-      "pushed_at": "2026-08-14T04:44:14Z",
-      "matched_queries": [
-        "\"crypto trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "\"trading bot\" in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtest in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtesting in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtesting in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-15",
-        "topic:algorithmic-trading archived:false fork:false pushed:>2025-02-15",
-        "topic:trading-bot archived:false fork:false pushed:>2025-02-15"
-      ],
-      "star_delta_1d": 19,
-      "star_delta_7d": 223,
-      "star_delta_30d": null,
-      "category_guess": [
-        "backtesting",
-        "crypto_trading",
-        "trading_bot"
-      ],
-      "risk_flags": [
-        "crypto_related",
-        "likely_research_tool",
-        "risk_keyword_low",
-        "trading_bot"
-      ],
-      "risk_level": "中",
-      "hot_score": 57.52,
-      "ranking_reasons": [
-        "24 小时涨星 +19",
-        "7 日涨星 +223",
-        "总 star 数较高",
-        "近 30 天有 push",
-        "匹配分类：backtesting、crypto_trading、trading_bot",
-        "包含风险或用途标记：crypto_related、likely_research_tool、risk_keyword_low"
-      ],
-      "rank": 34
-    },
-    {
-      "id": 1213108633,
-      "full_name": "OpenSenseNova/SenseNova-U1",
-      "owner": "OpenSenseNova",
-      "name": "SenseNova-U1",
-      "html_url": "https://github.com/OpenSenseNova/SenseNova-U1",
-      "description": "SenseNova-U series: Native Unified Paradigm with NEO-unify from the First Principles",
-      "stars": 4791,
-      "forks": 409,
-      "watchers": 4791,
-      "open_issues": 37,
-      "language": "Python",
-      "topics": [],
-      "license": "Apache-2.0",
-      "archived": false,
-      "fork": false,
-      "created_at": "2026-04-17T03:46:29Z",
-      "updated_at": "2026-08-15T01:31:09Z",
-      "pushed_at": "2026-08-13T11:55:39Z",
-      "matched_queries": [
-        "quant in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-15"
-      ],
-      "star_delta_1d": 28,
-      "star_delta_7d": 257,
-      "star_delta_30d": null,
-      "category_guess": [
-        "quant_research"
-      ],
-      "risk_flags": [],
-      "risk_level": "低",
-      "hot_score": 56.66,
-      "ranking_reasons": [
-        "24 小时涨星 +28",
-        "7 日涨星 +257",
-        "总 star 数较高",
-        "近 30 天有 push",
-        "匹配分类：quant_research"
-      ],
-      "rank": 35
-    },
-    {
-      "id": 1313773465,
-      "full_name": "mothparkzo6249/TG-Polymarket-bot",
-      "owner": "mothparkzo6249",
-      "name": "TG-Polymarket-bot",
-      "html_url": "https://github.com/mothparkzo6249/TG-Polymarket-bot",
-      "description": "Telegram bot that catches Polymarket whale trades in real time and lets you copy them in one tap — plus a free public alerts channel.",
-      "stars": 1047,
-      "forks": 530,
-      "watchers": 1047,
-      "open_issues": 0,
-      "language": "JavaScript",
-      "topics": [
-        "alerts",
-        "betting",
-        "bot",
-        "channel",
-        "polymarket",
-        "telegram",
-        "tg"
-      ],
-      "license": "MIT",
-      "archived": false,
-      "fork": false,
-      "created_at": "2026-07-27T11:39:02Z",
-      "updated_at": "2026-08-15T01:59:58Z",
-      "pushed_at": "2026-08-15T01:59:50Z",
-      "matched_queries": [
-        "\"trading bot\" in:name,description,readme archived:false fork:false pushed:>2025-02-15"
-      ],
-      "star_delta_1d": 0,
-      "star_delta_7d": 392,
-      "star_delta_30d": null,
-      "category_guess": [
-        "trading_bot"
-      ],
-      "risk_flags": [
-        "trading_bot"
-      ],
-      "risk_level": "中",
-      "hot_score": 54.9,
-      "ranking_reasons": [
-        "7 日涨星 +392",
-        "总 star 数较高",
-        "近 30 天有 push",
-        "匹配分类：trading_bot",
-        "包含风险或用途标记：trading_bot"
-      ],
       "rank": 36
-    },
-    {
-      "id": 1313434625,
-      "full_name": "AmazingAng/old-coder",
-      "owner": "AmazingAng",
-      "name": "old-coder",
-      "html_url": "https://github.com/AmazingAng/old-coder",
-      "description": "An old coder's strategy for the agent era: don't read the code — make it run the gauntlet. Evidence-first development skill for coding agents, inspired by Uncle Bob.",
-      "stars": 455,
-      "forks": 38,
-      "watchers": 455,
-      "open_issues": 4,
-      "language": "Python",
-      "topics": [
-        "ai-agents",
-        "claude-code",
-        "skills",
-        "tdd"
-      ],
-      "license": "MIT",
-      "archived": false,
-      "fork": false,
-      "created_at": "2026-07-27T05:03:11Z",
-      "updated_at": "2026-08-15T01:55:30Z",
-      "pushed_at": "2026-08-14T19:36:19Z",
-      "matched_queries": [
-        "\"risk model\" in:name,description,readme archived:false fork:false pushed:>2025-02-15"
-      ],
-      "star_delta_1d": 64,
-      "star_delta_7d": 121,
-      "star_delta_30d": null,
-      "category_guess": [
-        "risk_management"
-      ],
-      "risk_flags": [],
-      "risk_level": "低",
-      "hot_score": 53.24,
-      "ranking_reasons": [
-        "24 小时涨星 +64",
-        "7 日涨星 +121",
-        "近 30 天有 push",
-        "匹配分类：risk_management"
-      ],
-      "rank": 37
     },
     {
       "id": 896144595,
@@ -2086,9 +2030,9 @@
       "name": "ai-hedge-fund",
       "html_url": "https://github.com/virattt/ai-hedge-fund",
       "description": "An AI Hedge Fund Team",
-      "stars": 62852,
-      "forks": 11063,
-      "watchers": 62852,
+      "stars": 62876,
+      "forks": 11065,
+      "watchers": 62876,
       "open_issues": 164,
       "language": "Python",
       "topics": [],
@@ -2096,16 +2040,16 @@
       "archived": false,
       "fork": false,
       "created_at": "2024-11-29T16:30:01Z",
-      "updated_at": "2026-08-15T01:12:48Z",
+      "updated_at": "2026-08-16T01:53:28Z",
       "pushed_at": "2026-08-07T17:21:58Z",
       "matched_queries": [
-        "\"alpha model\" in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtest in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtesting in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "backtesting in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-15"
+        "\"alpha model\" in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtest in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtesting in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "backtesting in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-16"
       ],
-      "star_delta_1d": 14,
-      "star_delta_7d": 129,
+      "star_delta_1d": 24,
+      "star_delta_7d": 137,
       "star_delta_30d": null,
       "category_guess": [
         "backtesting",
@@ -2117,14 +2061,68 @@
         "risk_keyword_low"
       ],
       "risk_level": "低",
-      "hot_score": 51.21,
+      "hot_score": 54.0,
       "ranking_reasons": [
-        "24 小时涨星 +14",
-        "7 日涨星 +129",
+        "24 小时涨星 +24",
+        "7 日涨星 +137",
         "总 star 数较高",
         "近 30 天有 push",
         "匹配分类：backtesting、quant_research、risk_management",
         "包含风险或用途标记：likely_research_tool、risk_keyword_low"
+      ],
+      "rank": 37
+    },
+    {
+      "id": 1062032781,
+      "full_name": "discountry/ritmex-bot",
+      "owner": "discountry",
+      "name": "ritmex-bot",
+      "html_url": "https://github.com/discountry/ritmex-bot",
+      "description": "Perp DEX trading bot.",
+      "stars": 542,
+      "forks": 199,
+      "watchers": 542,
+      "open_issues": 1,
+      "language": "TypeScript",
+      "topics": [
+        "aster",
+        "bnb",
+        "cryptocurrency",
+        "dex",
+        "perptuals",
+        "quant",
+        "trade-bot",
+        "trading"
+      ],
+      "license": null,
+      "archived": false,
+      "fork": false,
+      "created_at": "2025-09-22T18:01:37Z",
+      "updated_at": "2026-08-16T01:58:15Z",
+      "pushed_at": "2026-08-14T06:05:43Z",
+      "matched_queries": [
+        "\"market making\" in:name,description,readme archived:false fork:false pushed:>2025-02-16"
+      ],
+      "star_delta_1d": 84,
+      "star_delta_7d": 83,
+      "star_delta_30d": null,
+      "category_guess": [
+        "crypto_trading",
+        "quant_research",
+        "trading_bot"
+      ],
+      "risk_flags": [
+        "crypto_related",
+        "trading_bot"
+      ],
+      "risk_level": "中",
+      "hot_score": 53.74,
+      "ranking_reasons": [
+        "24 小时涨星 +84",
+        "7 日涨星 +83",
+        "近 30 天有 push",
+        "匹配分类：crypto_trading、quant_research、trading_bot",
+        "包含风险或用途标记：crypto_related、trading_bot"
       ],
       "rank": 38
     },
@@ -2135,9 +2133,9 @@
       "name": "tickflow-stock-panel",
       "html_url": "https://github.com/shy3130/tickflow-stock-panel",
       "description": "TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 | 基于 TickFlow 数据源  | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源 ,非TickFlow官方项目",
-      "stars": 2846,
-      "forks": 689,
-      "watchers": 2846,
+      "stars": 2864,
+      "forks": 698,
+      "watchers": 2864,
       "open_issues": 17,
       "language": "Python",
       "topics": [
@@ -2166,15 +2164,15 @@
       "archived": false,
       "fork": false,
       "created_at": "2026-06-18T06:18:29Z",
-      "updated_at": "2026-08-15T01:04:22Z",
+      "updated_at": "2026-08-16T01:59:42Z",
       "pushed_at": "2026-08-14T05:41:07Z",
       "matched_queries": [
-        "backtesting in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-15",
-        "topic:backtesting archived:false fork:false pushed:>2025-02-15",
-        "topic:quant archived:false fork:false pushed:>2025-02-15",
-        "topic:quantitative-finance archived:false fork:false pushed:>2025-02-15"
+        "backtesting in:name,description,readme language:Python archived:false fork:false pushed:>2025-02-16",
+        "topic:backtesting archived:false fork:false pushed:>2025-02-16",
+        "topic:quant archived:false fork:false pushed:>2025-02-16",
+        "topic:quantitative-finance archived:false fork:false pushed:>2025-02-16"
       ],
-      "star_delta_1d": 13,
+      "star_delta_1d": 18,
       "star_delta_7d": 186,
       "star_delta_30d": null,
       "category_guess": [
@@ -2187,9 +2185,9 @@
         "risk_keyword_low"
       ],
       "risk_level": "低",
-      "hot_score": 49.61,
+      "hot_score": 50.76,
       "ranking_reasons": [
-        "24 小时涨星 +13",
+        "24 小时涨星 +18",
         "7 日涨星 +186",
         "总 star 数较高",
         "近 30 天有 push",
@@ -2199,55 +2197,15 @@
       "rank": 39
     },
     {
-      "id": 21872392,
-      "full_name": "josephmisiti/awesome-machine-learning",
-      "owner": "josephmisiti",
-      "name": "awesome-machine-learning",
-      "html_url": "https://github.com/josephmisiti/awesome-machine-learning",
-      "description": "A curated list of awesome Machine Learning frameworks, libraries and software.",
-      "stars": 74033,
-      "forks": 15614,
-      "watchers": 74033,
-      "open_issues": 24,
-      "language": "Python",
-      "topics": [],
-      "license": "Other",
-      "archived": false,
-      "fork": false,
-      "created_at": "2014-07-15T19:11:19Z",
-      "updated_at": "2026-08-15T01:02:51Z",
-      "pushed_at": "2026-08-11T21:49:59Z",
-      "matched_queries": [
-        "\"algorithmic trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-15"
-      ],
-      "star_delta_1d": 9,
-      "star_delta_7d": 96,
-      "star_delta_30d": null,
-      "category_guess": [
-        "ai_trading"
-      ],
-      "risk_flags": [],
-      "risk_level": "低",
-      "hot_score": 49.43,
-      "ranking_reasons": [
-        "24 小时涨星 +9",
-        "7 日涨星 +96",
-        "总 star 数较高",
-        "近 30 天有 push",
-        "匹配分类：ai_trading"
-      ],
-      "rank": 40
-    },
-    {
       "id": 1127110039,
       "full_name": "OthmanAdi/planning-with-files",
       "owner": "OthmanAdi",
       "name": "planning-with-files",
       "html_url": "https://github.com/OthmanAdi/planning-with-files",
       "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.",
-      "stars": 26168,
-      "forks": 2188,
-      "watchers": 26168,
+      "stars": 26182,
+      "forks": 2190,
+      "watchers": 26182,
       "open_issues": 7,
       "language": "Shell",
       "topics": [
@@ -2276,13 +2234,13 @@
       "archived": false,
       "fork": false,
       "created_at": "2026-01-03T07:37:28Z",
-      "updated_at": "2026-08-15T00:39:07Z",
+      "updated_at": "2026-08-16T02:02:19Z",
       "pushed_at": "2026-08-14T20:38:13Z",
       "matched_queries": [
-        "volatility in:name,description,readme archived:false fork:false pushed:>2025-02-15"
+        "volatility in:name,description,readme archived:false fork:false pushed:>2025-02-16"
       ],
-      "star_delta_1d": 9,
-      "star_delta_7d": 126,
+      "star_delta_1d": 14,
+      "star_delta_7d": 127,
       "star_delta_30d": null,
       "category_guess": [
         "ai_trading",
@@ -2290,15 +2248,166 @@
       ],
       "risk_flags": [],
       "risk_level": "低",
-      "hot_score": 49.23,
+      "hot_score": 50.41,
       "ranking_reasons": [
-        "24 小时涨星 +9",
-        "7 日涨星 +126",
+        "24 小时涨星 +14",
+        "7 日涨星 +127",
         "总 star 数较高",
         "近 30 天有 push",
         "匹配分类：ai_trading、risk_management"
       ],
+      "rank": 40
+    },
+    {
+      "id": 1289743790,
+      "full_name": "simonlin1212/Vibe-Research",
+      "owner": "simonlin1212",
+      "name": "Vibe-Research",
+      "html_url": "https://github.com/simonlin1212/Vibe-Research",
+      "description": "Vibe-Research: Your Personal Trading Research Agent · A股/美股/港股 的个人投研 Agent：每日复盘、资讯雷达、个股数据、板块中心、我的持仓、研究记录。Vibe-Research 把数据和功能配齐，由你自己的 AI 驱动投资研究。",
+      "stars": 2057,
+      "forks": 427,
+      "watchers": 2057,
+      "open_issues": 8,
+      "language": "TypeScript",
+      "topics": [
+        "a-stock",
+        "ai-agent",
+        "dashboard",
+        "fastapi",
+        "fintech",
+        "hk-stocks",
+        "investment-research",
+        "llm",
+        "mcp",
+        "python",
+        "react",
+        "stock-market",
+        "trading",
+        "us-stocks"
+      ],
+      "license": "MIT",
+      "archived": false,
+      "fork": false,
+      "created_at": "2026-07-05T06:30:55Z",
+      "updated_at": "2026-08-16T01:40:05Z",
+      "pushed_at": "2026-08-09T02:47:20Z",
+      "matched_queries": [
+        "topic:fintech archived:false fork:false pushed:>2025-02-16",
+        "topic:stock-market archived:false fork:false pushed:>2025-02-16"
+      ],
+      "star_delta_1d": 32,
+      "star_delta_7d": 135,
+      "star_delta_30d": null,
+      "category_guess": [
+        "ai_trading",
+        "fintech_product",
+        "quant_research"
+      ],
+      "risk_flags": [
+        "likely_research_tool"
+      ],
+      "risk_level": "低",
+      "hot_score": 50.23,
+      "ranking_reasons": [
+        "24 小时涨星 +32",
+        "7 日涨星 +135",
+        "总 star 数较高",
+        "近 30 天有 push",
+        "匹配分类：ai_trading、fintech_product、quant_research",
+        "包含风险或用途标记：likely_research_tool"
+      ],
       "rank": 41
+    },
+    {
+      "id": 21872392,
+      "full_name": "josephmisiti/awesome-machine-learning",
+      "owner": "josephmisiti",
+      "name": "awesome-machine-learning",
+      "html_url": "https://github.com/josephmisiti/awesome-machine-learning",
+      "description": "A curated list of awesome Machine Learning frameworks, libraries and software.",
+      "stars": 74046,
+      "forks": 15614,
+      "watchers": 74046,
+      "open_issues": 24,
+      "language": "Python",
+      "topics": [],
+      "license": "Other",
+      "archived": false,
+      "fork": false,
+      "created_at": "2014-07-15T19:11:19Z",
+      "updated_at": "2026-08-15T23:44:01Z",
+      "pushed_at": "2026-08-11T21:49:59Z",
+      "matched_queries": [
+        "\"algorithmic trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-16"
+      ],
+      "star_delta_1d": 13,
+      "star_delta_7d": 90,
+      "star_delta_30d": null,
+      "category_guess": [
+        "ai_trading"
+      ],
+      "risk_flags": [],
+      "risk_level": "低",
+      "hot_score": 50.02,
+      "ranking_reasons": [
+        "24 小时涨星 +13",
+        "7 日涨星 +90",
+        "总 star 数较高",
+        "近 30 天有 push",
+        "匹配分类：ai_trading"
+      ],
+      "rank": 42
+    },
+    {
+      "id": 693342566,
+      "full_name": "ByteByteGoHq/system-design-101",
+      "owner": "ByteByteGoHq",
+      "name": "system-design-101",
+      "html_url": "https://github.com/ByteByteGoHq/system-design-101",
+      "description": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
+      "stars": 87139,
+      "forks": 9690,
+      "watchers": 87139,
+      "open_issues": 67,
+      "language": null,
+      "topics": [
+        "aws",
+        "cloud-computing",
+        "coding-interviews",
+        "computer-science",
+        "interview-questions",
+        "software-architecture",
+        "software-development",
+        "software-engineering",
+        "system-design",
+        "system-design-interview"
+      ],
+      "license": "Other",
+      "archived": false,
+      "fork": false,
+      "created_at": "2023-09-18T20:52:03Z",
+      "updated_at": "2026-08-16T02:02:40Z",
+      "pushed_at": "2025-04-04T17:30:30Z",
+      "matched_queries": [
+        "fintech in:name,description,readme archived:false fork:false pushed:>2025-02-16"
+      ],
+      "star_delta_1d": 79,
+      "star_delta_7d": 346,
+      "star_delta_30d": null,
+      "category_guess": [
+        "fintech_product"
+      ],
+      "risk_flags": [],
+      "risk_level": "低",
+      "hot_score": 49.72,
+      "ranking_reasons": [
+        "24 小时涨星 +79",
+        "7 日涨星 +346",
+        "总 star 数较高",
+        "匹配分类：fintech_product"
+      ],
+      "rank": 43
     },
     {
       "id": 21935031,
@@ -2307,9 +2416,9 @@
       "name": "awesome-cpp",
       "html_url": "https://github.com/fffaraz/awesome-cpp",
       "description": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
-      "stars": 72768,
-      "forks": 8320,
-      "watchers": 72768,
+      "stars": 72780,
+      "forks": 8321,
+      "watchers": 72780,
       "open_issues": 312,
       "language": null,
       "topics": [
@@ -2330,71 +2439,28 @@
       "archived": false,
       "fork": false,
       "created_at": "2014-07-17T08:51:11Z",
-      "updated_at": "2026-08-15T01:45:59Z",
+      "updated_at": "2026-08-16T01:57:42Z",
       "pushed_at": "2026-08-04T08:08:58Z",
       "matched_queries": [
-        "\"quantitative finance\" in:name,description,readme archived:false fork:false pushed:>2025-02-15"
+        "\"quantitative finance\" in:name,description,readme archived:false fork:false pushed:>2025-02-16"
       ],
-      "star_delta_1d": 9,
-      "star_delta_7d": 119,
+      "star_delta_1d": 12,
+      "star_delta_7d": 115,
       "star_delta_30d": null,
       "category_guess": [
         "quant_research"
       ],
       "risk_flags": [],
       "risk_level": "低",
-      "hot_score": 49.16,
+      "hot_score": 49.59,
       "ranking_reasons": [
-        "24 小时涨星 +9",
-        "7 日涨星 +119",
+        "24 小时涨星 +12",
+        "7 日涨星 +115",
         "总 star 数较高",
         "近 30 天有 push",
         "匹配分类：quant_research"
       ],
-      "rank": 42
-    },
-    {
-      "id": 1195329660,
-      "full_name": "tradesdontlie/tradingview-mcp",
-      "owner": "tradesdontlie",
-      "name": "tradingview-mcp",
-      "html_url": "https://github.com/tradesdontlie/tradingview-mcp",
-      "description": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation",
-      "stars": 5687,
-      "forks": 2478,
-      "watchers": 5687,
-      "open_issues": 199,
-      "language": "JavaScript",
-      "topics": [],
-      "license": "Other",
-      "archived": false,
-      "fork": false,
-      "created_at": "2026-03-29T14:39:25Z",
-      "updated_at": "2026-08-14T21:31:01Z",
-      "pushed_at": "2026-07-28T17:28:37Z",
-      "matched_queries": [
-        "\"trading bot\" in:name,description,readme archived:false fork:false pushed:>2025-02-15"
-      ],
-      "star_delta_1d": 18,
-      "star_delta_7d": 153,
-      "star_delta_30d": null,
-      "category_guess": [
-        "trading_bot"
-      ],
-      "risk_flags": [
-        "trading_bot"
-      ],
-      "risk_level": "中",
-      "hot_score": 48.89,
-      "ranking_reasons": [
-        "24 小时涨星 +18",
-        "7 日涨星 +153",
-        "总 star 数较高",
-        "近 30 天有 push",
-        "匹配分类：trading_bot",
-        "包含风险或用途标记：trading_bot"
-      ],
-      "rank": 43
+      "rank": 44
     },
     {
       "id": 1232995828,
@@ -2403,10 +2469,10 @@
       "name": "free-stockdb",
       "html_url": "https://github.com/hello245m/free-stockdb",
       "description": "面向 A 股日K、分钟K与ETF分钟数据的本地量化引擎，集成增量同步、本地缓存、复权、批量查询、回测与指标计算。",
-      "stars": 2039,
-      "forks": 302,
-      "watchers": 2039,
-      "open_issues": 1,
+      "stars": 2055,
+      "forks": 303,
+      "watchers": 2055,
+      "open_issues": 0,
       "language": "HTML",
       "topics": [
         "a-share",
@@ -2428,16 +2494,16 @@
       "archived": false,
       "fork": false,
       "created_at": "2026-05-08T13:34:17Z",
-      "updated_at": "2026-08-15T01:11:05Z",
+      "updated_at": "2026-08-16T00:25:21Z",
       "pushed_at": "2026-08-11T11:04:29Z",
       "matched_queries": [
-        "topic:algorithmic-trading archived:false fork:false pushed:>2025-02-15",
-        "topic:backtesting archived:false fork:false pushed:>2025-02-15",
-        "topic:quantitative-finance archived:false fork:false pushed:>2025-02-15",
-        "topic:stock-market archived:false fork:false pushed:>2025-02-15"
+        "topic:algorithmic-trading archived:false fork:false pushed:>2025-02-16",
+        "topic:backtesting archived:false fork:false pushed:>2025-02-16",
+        "topic:quantitative-finance archived:false fork:false pushed:>2025-02-16",
+        "topic:stock-market archived:false fork:false pushed:>2025-02-16"
       ],
-      "star_delta_1d": 11,
-      "star_delta_7d": 226,
+      "star_delta_1d": 16,
+      "star_delta_7d": 214,
       "star_delta_30d": null,
       "category_guess": [
         "backtesting",
@@ -2448,70 +2514,14 @@
         "risk_keyword_low"
       ],
       "risk_level": "低",
-      "hot_score": 48.81,
+      "hot_score": 49.35,
       "ranking_reasons": [
-        "24 小时涨星 +11",
-        "7 日涨星 +226",
+        "24 小时涨星 +16",
+        "7 日涨星 +214",
         "总 star 数较高",
         "近 30 天有 push",
         "匹配分类：backtesting、quant_research",
         "包含风险或用途标记：likely_research_tool、risk_keyword_low"
-      ],
-      "rank": 44
-    },
-    {
-      "id": 1192555574,
-      "full_name": "RyanCodrai/turbovec",
-      "owner": "RyanCodrai",
-      "name": "turbovec",
-      "html_url": "https://github.com/RyanCodrai/turbovec",
-      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
-      "stars": 14773,
-      "forks": 1324,
-      "watchers": 14773,
-      "open_issues": 29,
-      "language": "Rust",
-      "topics": [
-        "ann",
-        "avx512",
-        "embedding",
-        "embeddings",
-        "faiss",
-        "nearest-neighbor",
-        "neon",
-        "python",
-        "quant",
-        "quantization",
-        "rag",
-        "rust",
-        "simd",
-        "turboquant",
-        "vector-search"
-      ],
-      "license": "MIT",
-      "archived": false,
-      "fork": false,
-      "created_at": "2026-03-26T10:32:44Z",
-      "updated_at": "2026-08-15T00:18:53Z",
-      "pushed_at": "2026-08-10T21:50:12Z",
-      "matched_queries": [
-        "topic:quant archived:false fork:false pushed:>2025-02-15"
-      ],
-      "star_delta_1d": 14,
-      "star_delta_7d": 105,
-      "star_delta_30d": null,
-      "category_guess": [
-        "quant_research"
-      ],
-      "risk_flags": [],
-      "risk_level": "低",
-      "hot_score": 48.44,
-      "ranking_reasons": [
-        "24 小时涨星 +14",
-        "7 日涨星 +105",
-        "总 star 数较高",
-        "近 30 天有 push",
-        "匹配分类：quant_research"
       ],
       "rank": 45
     },
@@ -2522,9 +2532,9 @@
       "name": "awesome-rust",
       "html_url": "https://github.com/rust-unofficial/awesome-rust",
       "description": "A curated list of Rust code and resources.",
-      "stars": 58833,
-      "forks": 3538,
-      "watchers": 58833,
+      "stars": 58844,
+      "forks": 3540,
+      "watchers": 58844,
       "open_issues": 8,
       "language": "Rust",
       "topics": [
@@ -2535,18 +2545,18 @@
       "archived": false,
       "fork": false,
       "created_at": "2014-07-17T10:45:10Z",
-      "updated_at": "2026-08-14T22:10:01Z",
-      "pushed_at": "2026-08-14T17:56:17Z",
+      "updated_at": "2026-08-16T01:58:11Z",
+      "pushed_at": "2026-08-15T23:24:05Z",
       "matched_queries": [
-        "\"ai trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "\"algorithmic trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "\"quantitative finance\" in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "\"risk model\" in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "quant in:name,description,readme language:Rust archived:false fork:false pushed:>2025-02-15"
+        "\"ai trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "\"algorithmic trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "\"quantitative finance\" in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "\"risk model\" in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "quant in:name,description,readme language:Rust archived:false fork:false pushed:>2025-02-16"
       ],
-      "star_delta_1d": 8,
-      "star_delta_7d": 98,
+      "star_delta_1d": 11,
+      "star_delta_7d": 90,
       "star_delta_30d": null,
       "category_guess": [
         "ai_trading",
@@ -2555,10 +2565,10 @@
       ],
       "risk_flags": [],
       "risk_level": "低",
-      "hot_score": 47.81,
+      "hot_score": 48.18,
       "ranking_reasons": [
-        "24 小时涨星 +8",
-        "7 日涨星 +98",
+        "24 小时涨星 +11",
+        "7 日涨星 +90",
         "总 star 数较高",
         "近 30 天有 push",
         "匹配分类：ai_trading、quant_research、risk_management"
@@ -2572,9 +2582,9 @@
       "name": "cs-video-courses",
       "html_url": "https://github.com/Developer-Y/cs-video-courses",
       "description": "List of Computer Science courses with video lectures.",
-      "stars": 83045,
-      "forks": 11433,
-      "watchers": 83045,
+      "stars": 83055,
+      "forks": 11431,
+      "watchers": 83055,
       "open_issues": 2,
       "language": null,
       "topics": [
@@ -2601,14 +2611,14 @@
       "archived": false,
       "fork": false,
       "created_at": "2016-10-21T17:02:11Z",
-      "updated_at": "2026-08-15T01:29:26Z",
+      "updated_at": "2026-08-15T20:52:19Z",
       "pushed_at": "2026-07-07T17:42:10Z",
       "matched_queries": [
-        "\"algorithmic trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-15",
-        "\"quantitative finance\" in:name,description,readme archived:false fork:false pushed:>2025-02-15"
+        "\"algorithmic trading\" in:name,description,readme archived:false fork:false pushed:>2025-02-16",
+        "\"quantitative finance\" in:name,description,readme archived:false fork:false pushed:>2025-02-16"
       ],
-      "star_delta_1d": 2,
-      "star_delta_7d": 97,
+      "star_delta_1d": 10,
+      "star_delta_7d": 98,
       "star_delta_30d": null,
       "category_guess": [
         "quant_research",
@@ -2618,10 +2628,10 @@
         "trading_bot"
       ],
       "risk_level": "中",
-      "hot_score": 43.8,
+      "hot_score": 45.74,
       "ranking_reasons": [
-        "24 小时涨星 +2",
-        "7 日涨星 +97",
+        "24 小时涨星 +10",
+        "7 日涨星 +98",
         "总 star 数较高",
         "近 90 天有 push",
         "匹配分类：quant_research、trading_bot",
@@ -2637,7 +2647,7 @@
       "html_url": "https://github.com/vuejs/awesome-vue",
       "description": "🎉 A curated list of awesome things related to Vue.js",
       "stars": 73544,
-      "forks": 9451,
+      "forks": 9450,
       "watchers": 73544,
       "open_issues": 92,
       "language": null,
@@ -2646,76 +2656,26 @@
       "archived": false,
       "fork": false,
       "created_at": "2015-10-20T00:16:14Z",
-      "updated_at": "2026-08-14T22:22:49Z",
+      "updated_at": "2026-08-15T09:01:26Z",
       "pushed_at": "2026-07-24T10:16:04Z",
       "matched_queries": [
-        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-15"
+        "quant in:name,description,readme archived:false fork:false pushed:>2025-02-16"
       ],
-      "star_delta_1d": -8,
-      "star_delta_7d": -12,
+      "star_delta_1d": 0,
+      "star_delta_7d": -13,
       "star_delta_30d": null,
       "category_guess": [
         "quant_research"
       ],
       "risk_flags": [],
       "risk_level": "低",
-      "hot_score": 39.88,
+      "hot_score": 39.77,
       "ranking_reasons": [
         "总 star 数较高",
         "近 30 天有 push",
         "匹配分类：quant_research"
       ],
       "rank": 48
-    },
-    {
-      "id": 693342566,
-      "full_name": "ByteByteGoHq/system-design-101",
-      "owner": "ByteByteGoHq",
-      "name": "system-design-101",
-      "html_url": "https://github.com/ByteByteGoHq/system-design-101",
-      "description": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
-      "stars": 87060,
-      "forks": 9681,
-      "watchers": 87060,
-      "open_issues": 67,
-      "language": null,
-      "topics": [
-        "aws",
-        "cloud-computing",
-        "coding-interviews",
-        "computer-science",
-        "interview-questions",
-        "software-architecture",
-        "software-development",
-        "software-engineering",
-        "system-design",
-        "system-design-interview"
-      ],
-      "license": "Other",
-      "archived": false,
-      "fork": false,
-      "created_at": "2023-09-18T20:52:03Z",
-      "updated_at": "2026-08-15T01:44:08Z",
-      "pushed_at": "2025-04-04T17:30:30Z",
-      "matched_queries": [
-        "fintech in:name,description,readme archived:false fork:false pushed:>2025-02-15"
-      ],
-      "star_delta_1d": 31,
-      "star_delta_7d": 312,
-      "star_delta_30d": null,
-      "category_guess": [
-        "fintech_product"
-      ],
-      "risk_flags": [],
-      "risk_level": "低",
-      "hot_score": 36.02,
-      "ranking_reasons": [
-        "24 小时涨星 +31",
-        "7 日涨星 +312",
-        "总 star 数较高",
-        "匹配分类：fintech_product"
-      ],
-      "rank": 49
     }
   ]
 }
