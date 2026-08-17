@@ -1,0 +1,37 @@
+{
+  "attempt_count": 1,
+  "attempts": [
+    {
+      "finish_reason": "stop",
+      "output_sha256": "8b5b351d872203844321344061dbb41e5ce4fb6f780944f7e94d3a97738acb2c",
+      "validation_errors": []
+    }
+  ],
+  "base_url": "https://api.deepseek.com",
+  "endpoint": "/chat/completions",
+  "finish_reason": "stop",
+  "generated_at": "2026-08-17T02:13:26+00:00",
+  "input_path": "data/latest_candidates.json",
+  "input_sha256": "2779f2f78c6bfae4c524be22c1add05f4b0a631d1dd7e9aa09fe72e4717fc430",
+  "max_tokens": 16000,
+  "metadata_path": "data/report_runs/2026-08-16-deepseek.json",
+  "model": "deepseek-v4-pro",
+  "output_path": "reports/daily/2026-08-16-finance-github-radar.md",
+  "output_sha256": "8b5b351d872203844321344061dbb41e5ce4fb6f780944f7e94d3a97738acb2c",
+  "prompt_path": ".github/deepseek/prompts/daily_finance_radar.md",
+  "prompt_sha256": "90d34537e219c78968a2ba68093e99190528148a7679d3889fc90f8277c9328f",
+  "provider": "deepseek",
+  "response_id": "6d059d81-3f1a-48ba-b195-010df1b88815",
+  "temperature": 0.2,
+  "thinking": "disabled",
+  "usage": {
+    "completion_tokens": 7802,
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 29069,
+    "prompt_tokens": 29965,
+    "prompt_tokens_details": {
+      "cached_tokens": 896
+    },
+    "total_tokens": 37767
+  }
+}
